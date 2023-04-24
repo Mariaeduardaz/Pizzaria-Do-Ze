@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97D2392E-5462-46DF-AA4A-03F1E918BAE1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pizzaria_Do_Ze</RootNamespace>
+    <AssemblyName>Pizzaria Do Ze</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Pizzaria Do Ze.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administrador\CadFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\CadFornecedor.Designer.cs">
+      <DependentUpon>CadFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\cadFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\cadFuncionario.Designer.cs">
+      <DependentUpon>cadFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\CadGenerico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Administrador\CadGenerico.Designer.cs">
+      <DependentUpon>CadGenerico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Administrador\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Administrador\UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cad.Designer.cs">
+      <DependentUpon>Cad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcoes.cs" />
+    <Compile Include="Properties\Resources.es.Designer.cs">
+      <DependentUpon>Resources.es.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TelaDeConfg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaDeConfg.Designer.cs">
+      <DependentUpon>TelaDeConfg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaLogin.Designer.cs">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Administrador\CadBordas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\CadBordas.Designer.cs">
+      <DependentUpon>CadBordas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\CadBebidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\CadBebidas.Designer.cs">
+      <DependentUpon>CadBebidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\TelaEditarBorda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\TelaEditarBorda.Designer.cs">
+      <DependentUpon>TelaEditarBorda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\TelaEditarPrecos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\TelaEditarPrecos.Designer.cs">
+      <DependentUpon>TelaEditarPrecos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\TelaEditSabores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\TelaEditSabores.Designer.cs">
+      <DependentUpon>TelaEditSabores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\TelaPizzaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\TelaPizzaAdmin.Designer.cs">
+      <DependentUpon>TelaPizzaAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\TelaSabores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\TelaSabores.Designer.cs">
+      <DependentUpon>TelaSabores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Telaprincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Telaprincipal.Designer.cs">
+      <DependentUpon>Telaprincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas pedido\TelaPedidoSelecionado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas pedido\TelaPedidoSelecionado.Designer.cs">
+      <DependentUpon>TelaPedidoSelecionado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas pedido\TelaPedidosPendentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas pedido\TelaPedidosPendentes.Designer.cs">
+      <DependentUpon>TelaPedidosPendentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas pedido\TelaAcessarStatusPedidoAtendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas pedido\TelaAcessarStatusPedidoAtendente.Designer.cs">
+      <DependentUpon>TelaAcessarStatusPedidoAtendente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas pedido\TelaCadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas pedido\TelaCadastroCliente.Designer.cs">
+      <DependentUpon>TelaCadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas pedido\TelaPedidoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas pedido\TelaPedidoCliente.Designer.cs">
+      <DependentUpon>TelaPedidoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas pedido\TelaPedidoFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas pedido\TelaPedidoFinal.Designer.cs">
+      <DependentUpon>TelaPedidoFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas pedido\TelaPedidosEntregues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas pedido\TelaPedidosEntregues.Designer.cs">
+      <DependentUpon>TelaPedidosEntregues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas pedido\TelaRetirarIngrediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas pedido\TelaRetirarIngrediente.Designer.cs">
+      <DependentUpon>TelaRetirarIngrediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas pedido\TelaStatusPedidoAtendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas pedido\TelaStatusPedidoAtendente.Designer.cs">
+      <DependentUpon>TelaStatusPedidoAtendente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas pedido\TelaTamanhoPizza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas pedido\TelaTamanhoPizza.Designer.cs">
+      <DependentUpon>TelaTamanhoPizza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\TelaPrincipalAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\TelaPrincipalAdmin.Designer.cs">
+      <DependentUpon>TelaPrincipalAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\TelaPrincipalAtendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\TelaPrincipalAtendente.Designer.cs">
+      <DependentUpon>TelaPrincipalAtendente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\TelaPrincipalEntregador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\TelaPrincipalEntregador.Designer.cs">
+      <DependentUpon>TelaPrincipalEntregador.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Administrador\TelaEditarBorda.resx">
+      <DependentUpon>TelaEditarBorda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\CadFornecedor.resx">
+      <DependentUpon>CadFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\cadFuncionario.resx">
+      <DependentUpon>cadFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\CadGenerico.resx">
+      <DependentUpon>CadGenerico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\UserControl2.resx">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaDeConfg.resx">
+      <DependentUpon>TelaDeConfg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLogin.resx">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Administrador\CadBordas.resx">
+      <DependentUpon>CadBordas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\CadBebidas.resx">
+      <DependentUpon>CadBebidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\TelaEditarPrecos.resx">
+      <DependentUpon>TelaEditarPrecos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\TelaEditSabores.resx">
+      <DependentUpon>TelaEditSabores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\TelaPizzaAdmin.resx">
+      <DependentUpon>TelaPizzaAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\TelaSabores.resx">
+      <DependentUpon>TelaSabores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Telaprincipal.resx">
+      <DependentUpon>Telaprincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas pedido\TelaPedidoSelecionado.resx">
+      <DependentUpon>TelaPedidoSelecionado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas pedido\TelaPedidosEntregues.resx">
+      <DependentUpon>TelaPedidosEntregues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas pedido\TelaPedidosPendentes.resx">
+      <DependentUpon>TelaPedidosPendentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas pedido\TelaAcessarStatusPedidoAtendente.resx">
+      <DependentUpon>TelaAcessarStatusPedidoAtendente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas pedido\TelaCadastroCliente.resx">
+      <DependentUpon>TelaCadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas pedido\TelaPedidoCliente.resx">
+      <DependentUpon>TelaPedidoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas pedido\TelaPedidoFinal.resx">
+      <DependentUpon>TelaPedidoFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas pedido\TelaRetirarIngrediente.resx">
+      <DependentUpon>TelaRetirarIngrediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas pedido\TelaStatusPedidoAtendente.resx">
+      <DependentUpon>TelaStatusPedidoAtendente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas pedido\TelaTamanhoPizza.resx">
+      <DependentUpon>TelaTamanhoPizza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\TelaPrincipalAdmin.resx">
+      <DependentUpon>TelaPrincipalAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\TelaPrincipalAtendente.resx">
+      <DependentUpon>TelaPrincipalAtendente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\TelaPrincipalEntregador.resx">
+      <DependentUpon>TelaPrincipalEntregador.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
