@@ -61,7 +61,7 @@
             this.btnFechar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(112, 35);
-            this.btnFechar.TabIndex = 2;
+            this.btnFechar.TabIndex = 3;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.button1_Click);
@@ -72,7 +72,7 @@
             this.acessarBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.acessarBtn.Name = "acessarBtn";
             this.acessarBtn.Size = new System.Drawing.Size(112, 35);
-            this.acessarBtn.TabIndex = 3;
+            this.acessarBtn.TabIndex = 2;
             this.acessarBtn.Text = "Acessar";
             this.acessarBtn.UseVisualStyleBackColor = true;
             this.acessarBtn.Click += new System.EventHandler(this.acessarBtn_Click);
@@ -92,7 +92,7 @@
             this.textBoxnome.Location = new System.Drawing.Point(147, 62);
             this.textBoxnome.Name = "textBoxnome";
             this.textBoxnome.Size = new System.Drawing.Size(170, 26);
-            this.textBoxnome.TabIndex = 5;
+            this.textBoxnome.TabIndex = 0;
             // 
             // TelaAcessarStatusPedidoAtendente
             // 
@@ -121,10 +121,10 @@
         #endregion
 
         private System.Windows.Forms.Label labelID;
-        private System.Windows.Forms.ComboBox idPedidosAbertoscomboBox;
         private System.Windows.Forms.Button btnFechar;
         private System.Windows.Forms.Button acessarBtn;
         private System.Windows.Forms.Label labelNome;
         private System.Windows.Forms.TextBox textBoxnome;
+        private System.Windows.Forms.ComboBox idPedidosAbertoscomboBox;
     }
 }

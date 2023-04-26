@@ -24,6 +24,29 @@ namespace Pizzaria_Do_Ze.Telas_cadastros
             InitializeComponent();
             nameTextBot.Focus();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+
+            nameTextBot.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            nameTextBot.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            EmailTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            EmailTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            TelefoneMaskTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            TelefoneMaskTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            CPFMaskedTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            CPFMaskedTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            CEPMaskedTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            CEPMaskedTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            enderecoTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            enderecoTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            complementoTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            complementoTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            clienteCadastradoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            clienteCadastradoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cadastrarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cadastrarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+           
         }
 
         private void voltarBtn_Click(object sender, EventArgs e)
@@ -43,6 +66,11 @@ namespace Pizzaria_Do_Ze.Telas_cadastros
         }
 
         private void cadGenerico1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void enderecoTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }

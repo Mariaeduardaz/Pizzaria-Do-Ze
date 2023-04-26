@@ -23,6 +23,16 @@ namespace Pizzaria_Do_Ze
             InitializeComponent();
             pedEntreguesBtn.Focus();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+
+
+            pedEntreguesBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            pedEntreguesBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            pedPendentesBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            pedPendentesBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+           
         }
 
         private void pedPendentesBtn_Click(object sender, EventArgs e)

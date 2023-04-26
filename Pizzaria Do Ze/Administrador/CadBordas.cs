@@ -20,6 +20,15 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             InitializeComponent();
             nomeTextBox.Focus();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+
+            nomeTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            nomeTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnCancelar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnCancelar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnConcluido.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnConcluido.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+
         }
 
         private void okBtn_Click(object sender, EventArgs e)
@@ -30,6 +39,11 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         private void cancelbtn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void nomeTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

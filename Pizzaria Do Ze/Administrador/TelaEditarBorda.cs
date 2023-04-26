@@ -20,6 +20,14 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             InitializeComponent();
             BtnAddBorda.Focus();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+
+            BtnAddBorda.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            BtnAddBorda.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            BtnExcluir.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            BtnExcluir.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnCancelar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnCancelar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
         }
 
         private void addBordaBtn_Click(object sender, EventArgs e)

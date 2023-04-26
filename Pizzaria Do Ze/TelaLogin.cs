@@ -21,6 +21,25 @@ namespace Pizzaria_Do_Ze
             InitializeComponent();
             UserTextBox.Focus();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            notifyIcon1.ShowBalloonTip(1000);
+
+            btnIdioma.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnIdioma.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            UserTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            UserTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            senhaTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            senhaTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnentrar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnentrar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            abrirAplicaçãoToolStripMenuItem.Click += new EventHandler(Funcoes.CampoEventoEnter);
+            encerrarToolStripMenuItem.Click += new EventHandler(Funcoes.CampoEventoEnter);
+            sobreToolStripMenuItem.Click += new EventHandler(Funcoes.CampoEventoEnter);
+         
+
+
 
         }
 
@@ -50,6 +69,44 @@ namespace Pizzaria_Do_Ze
         private void btnIdioma_Click(object sender, EventArgs e)
         {
             teladeConfig.Show();
+        }
+        private void FormPrincipal_Resize(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                this.Hide();
+                notifyIcon1.Visible = true;
+            }
+            else if (FormWindowState.Normal == this.WindowState)
+            {
+                notifyIcon1.Visible = false;
+            }
+        }
+        private void NotifyIconSystemTray_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Show();
+            WindowState = FormWindowState.Normal;
+            notifyIcon1.Visible = false;
+        }
+
+        private void TelaLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelinicio_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

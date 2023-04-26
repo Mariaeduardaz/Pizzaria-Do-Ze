@@ -22,6 +22,16 @@ namespace Pizzaria_Do_Ze
             comboBoxIdioma.Focus();
             //seleciona no comboBox o idioma/cultura atual
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+
+
+            comboBoxIdioma.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            comboBoxIdioma.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            checkBoxIdiomaReiniciar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            checkBoxIdiomaReiniciar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            BtnSalvar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            BtnSalvar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+          
 
             comboBoxIdioma.SelectedItem = ConfigurationManager.AppSettings.Get("IdiomaRegiao");
         }

@@ -52,7 +52,7 @@
             this.CEPMaskedTB.Mask = "00000-000";
             this.CEPMaskedTB.Name = "CEPMaskedTB";
             this.CEPMaskedTB.Size = new System.Drawing.Size(206, 33);
-            this.CEPMaskedTB.TabIndex = 33;
+            this.CEPMaskedTB.TabIndex = 4;
             this.CEPMaskedTB.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.CEPMaskedTB_MaskInputRejected);
             // 
             // CPFMaskedTB
@@ -63,7 +63,7 @@
             this.CPFMaskedTB.Mask = "000.000.000-00";
             this.CPFMaskedTB.Name = "CPFMaskedTB";
             this.CPFMaskedTB.Size = new System.Drawing.Size(206, 33);
-            this.CPFMaskedTB.TabIndex = 32;
+            this.CPFMaskedTB.TabIndex = 3;
             this.CPFMaskedTB.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.CPFMaskedTB_MaskInputRejected);
             // 
             // labelObs
@@ -149,7 +149,7 @@
             this.complementoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.complementoTextBox.Name = "complementoTextBox";
             this.complementoTextBox.Size = new System.Drawing.Size(355, 33);
-            this.complementoTextBox.TabIndex = 23;
+            this.complementoTextBox.TabIndex = 6;
             this.complementoTextBox.TextChanged += new System.EventHandler(this.complementoTextBox_TextChanged);
             // 
             // enderecoTextBox
@@ -159,7 +159,7 @@
             this.enderecoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.enderecoTextBox.Name = "enderecoTextBox";
             this.enderecoTextBox.Size = new System.Drawing.Size(355, 33);
-            this.enderecoTextBox.TabIndex = 22;
+            this.enderecoTextBox.TabIndex = 5;
             this.enderecoTextBox.TextChanged += new System.EventHandler(this.enderecoTextBox_TextChanged);
             // 
             // EmailTextBox
@@ -169,7 +169,7 @@
             this.EmailTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.EmailTextBox.Name = "EmailTextBox";
             this.EmailTextBox.Size = new System.Drawing.Size(355, 33);
-            this.EmailTextBox.TabIndex = 21;
+            this.EmailTextBox.TabIndex = 1;
             this.EmailTextBox.TextChanged += new System.EventHandler(this.EmailTextBox_TextChanged);
             // 
             // TelefoneMaskTB
@@ -180,7 +180,7 @@
             this.TelefoneMaskTB.Mask = "(99) 0000-0000";
             this.TelefoneMaskTB.Name = "TelefoneMaskTB";
             this.TelefoneMaskTB.Size = new System.Drawing.Size(206, 33);
-            this.TelefoneMaskTB.TabIndex = 20;
+            this.TelefoneMaskTB.TabIndex = 2;
             this.TelefoneMaskTB.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.TelefoneMaskTB_MaskInputRejected);
             // 
             // nameTextBot
@@ -190,7 +190,7 @@
             this.nameTextBot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nameTextBot.Name = "nameTextBot";
             this.nameTextBot.Size = new System.Drawing.Size(332, 33);
-            this.nameTextBot.TabIndex = 19;
+            this.nameTextBot.TabIndex = 0;
             this.nameTextBot.TextChanged += new System.EventHandler(this.nameTextBot_TextChanged);
             // 
             // CadGenerico

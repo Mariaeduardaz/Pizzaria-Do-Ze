@@ -40,7 +40,7 @@
             this.saboresBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.saboresBtn.Name = "saboresBtn";
             this.saboresBtn.Size = new System.Drawing.Size(213, 68);
-            this.saboresBtn.TabIndex = 0;
+            this.saboresBtn.TabIndex = 1;
             this.saboresBtn.Text = "Sabor";
             this.saboresBtn.UseVisualStyleBackColor = true;
             this.saboresBtn.Click += new System.EventHandler(this.saboresBtn_Click);
@@ -51,7 +51,7 @@
             this.valoresBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.valoresBtn.Name = "valoresBtn";
             this.valoresBtn.Size = new System.Drawing.Size(213, 68);
-            this.valoresBtn.TabIndex = 1;
+            this.valoresBtn.TabIndex = 0;
             this.valoresBtn.Text = "Valores pizza";
             this.valoresBtn.UseVisualStyleBackColor = true;
             this.valoresBtn.Click += new System.EventHandler(this.valoresBtn_Click);
@@ -62,7 +62,7 @@
             this.btnVoltar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(106, 30);
-            this.btnVoltar.TabIndex = 2;
+            this.btnVoltar.TabIndex = 3;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
             this.btnVoltar.Click += new System.EventHandler(this.button3_Click);
@@ -73,7 +73,7 @@
             this.btnIngrendiente.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnIngrendiente.Name = "btnIngrendiente";
             this.btnIngrendiente.Size = new System.Drawing.Size(213, 68);
-            this.btnIngrendiente.TabIndex = 4;
+            this.btnIngrendiente.TabIndex = 2;
             this.btnIngrendiente.Text = "Ingrediente";
             this.btnIngrendiente.UseVisualStyleBackColor = true;
             this.btnIngrendiente.Click += new System.EventHandler(this.button2_Click);

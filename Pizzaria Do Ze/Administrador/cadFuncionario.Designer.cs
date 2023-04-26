@@ -54,7 +54,7 @@
             this.cnhMaskedTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cnhMaskedTB.Name = "cnhMaskedTB";
             this.cnhMaskedTB.Size = new System.Drawing.Size(148, 26);
-            this.cnhMaskedTB.TabIndex = 36;
+            this.cnhMaskedTB.TabIndex = 8;
             // 
             // entregadorRadioBtn
             // 
@@ -63,7 +63,7 @@
             this.entregadorRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.entregadorRadioBtn.Name = "entregadorRadioBtn";
             this.entregadorRadioBtn.Size = new System.Drawing.Size(114, 24);
-            this.entregadorRadioBtn.TabIndex = 35;
+            this.entregadorRadioBtn.TabIndex = 7;
             this.entregadorRadioBtn.TabStop = true;
             this.entregadorRadioBtn.Text = "Entregador";
             this.entregadorRadioBtn.UseVisualStyleBackColor = true;
@@ -75,7 +75,7 @@
             this.AtendenteRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AtendenteRadioBtn.Name = "AtendenteRadioBtn";
             this.AtendenteRadioBtn.Size = new System.Drawing.Size(109, 24);
-            this.AtendenteRadioBtn.TabIndex = 34;
+            this.AtendenteRadioBtn.TabIndex = 6;
             this.AtendenteRadioBtn.TabStop = true;
             this.AtendenteRadioBtn.Text = "Atendente";
             this.AtendenteRadioBtn.UseVisualStyleBackColor = true;
@@ -86,8 +86,8 @@
             this.adminRadioBtn.Location = new System.Drawing.Point(156, 229);
             this.adminRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.adminRadioBtn.Name = "adminRadioBtn";
-            this.adminRadioBtn.Size = new System.Drawing.Size(198, 36);
-            this.adminRadioBtn.TabIndex = 33;
+            this.adminRadioBtn.Size = new System.Drawing.Size(132, 24);
+            this.adminRadioBtn.TabIndex = 5;
             this.adminRadioBtn.TabStop = true;
             this.adminRadioBtn.Text = "Administrador";
             this.adminRadioBtn.UseVisualStyleBackColor = true;
@@ -99,7 +99,7 @@
             this.senhaMaskedTB.Name = "senhaMaskedTB";
             this.senhaMaskedTB.PasswordChar = '*';
             this.senhaMaskedTB.Size = new System.Drawing.Size(148, 26);
-            this.senhaMaskedTB.TabIndex = 32;
+            this.senhaMaskedTB.TabIndex = 4;
             // 
             // telefonemaskedTB
             // 
@@ -107,7 +107,7 @@
             this.telefonemaskedTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.telefonemaskedTB.Name = "telefonemaskedTB";
             this.telefonemaskedTB.Size = new System.Drawing.Size(148, 26);
-            this.telefonemaskedTB.TabIndex = 31;
+            this.telefonemaskedTB.TabIndex = 2;
             // 
             // cpfMaskedTB
             // 
@@ -115,7 +115,7 @@
             this.cpfMaskedTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cpfMaskedTB.Name = "cpfMaskedTB";
             this.cpfMaskedTB.Size = new System.Drawing.Size(148, 26);
-            this.cpfMaskedTB.TabIndex = 30;
+            this.cpfMaskedTB.TabIndex = 1;
             // 
             // matriculaTB
             // 
@@ -123,7 +123,7 @@
             this.matriculaTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.matriculaTB.Name = "matriculaTB";
             this.matriculaTB.Size = new System.Drawing.Size(148, 26);
-            this.matriculaTB.TabIndex = 29;
+            this.matriculaTB.TabIndex = 3;
             // 
             // nomeTB
             // 
@@ -131,7 +131,7 @@
             this.nomeTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nomeTB.Name = "nomeTB";
             this.nomeTB.Size = new System.Drawing.Size(148, 26);
-            this.nomeTB.TabIndex = 28;
+            this.nomeTB.TabIndex = 0;
             // 
             // labelCNH
             // 
@@ -209,7 +209,7 @@
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(112, 35);
-            this.btnCadastrar.TabIndex = 39;
+            this.btnCadastrar.TabIndex = 10;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
             // 
@@ -219,7 +219,7 @@
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(112, 35);
-            this.btnCancelar.TabIndex = 38;
+            this.btnCancelar.TabIndex = 9;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 

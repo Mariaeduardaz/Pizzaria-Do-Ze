@@ -26,6 +26,19 @@ namespace Pizzaria_Do_Ze
             InitializeComponent();
             clienteBtn.Focus();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+
+            clienteBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            clienteBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnEditarCliente.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnEditarCliente.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            BtnVisPedido.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            BtnVisPedido.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            BtnEditarStatusPedid.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            BtnEditarStatusPedid.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnVoltar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnVoltar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+           
         }
 
         
@@ -49,5 +62,6 @@ namespace Pizzaria_Do_Ze
         {
             this.Close();
         }
+
     }
 }

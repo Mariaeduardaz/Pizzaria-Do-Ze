@@ -53,7 +53,7 @@
             this.cadastrarBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cadastrarBtn.Name = "cadastrarBtn";
             this.cadastrarBtn.Size = new System.Drawing.Size(130, 43);
-            this.cadastrarBtn.TabIndex = 14;
+            this.cadastrarBtn.TabIndex = 8;
             this.cadastrarBtn.Text = "Cadastrar";
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.cadastrarBtn_Click);
@@ -64,7 +64,7 @@
             this.voltarBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.voltarBtn.Name = "voltarBtn";
             this.voltarBtn.Size = new System.Drawing.Size(142, 30);
-            this.voltarBtn.TabIndex = 15;
+            this.voltarBtn.TabIndex = 9;
             this.voltarBtn.Text = "Voltar";
             this.voltarBtn.UseVisualStyleBackColor = true;
             this.voltarBtn.Click += new System.EventHandler(this.voltarBtn_Click);
@@ -75,7 +75,7 @@
             this.clienteCadastradoBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.clienteCadastradoBtn.Name = "clienteCadastradoBtn";
             this.clienteCadastradoBtn.Size = new System.Drawing.Size(134, 44);
-            this.clienteCadastradoBtn.TabIndex = 18;
+            this.clienteCadastradoBtn.TabIndex = 7;
             this.clienteCadastradoBtn.Text = "Cadastrado";
             this.clienteCadastradoBtn.UseVisualStyleBackColor = true;
             // 
@@ -87,7 +87,7 @@
             this.CEPMaskedTB.Mask = "00000-000";
             this.CEPMaskedTB.Name = "CEPMaskedTB";
             this.CEPMaskedTB.Size = new System.Drawing.Size(206, 33);
-            this.CEPMaskedTB.TabIndex = 47;
+            this.CEPMaskedTB.TabIndex = 4;
             // 
             // CPFMaskedTB
             // 
@@ -97,7 +97,7 @@
             this.CPFMaskedTB.Mask = "000.000.000-00";
             this.CPFMaskedTB.Name = "CPFMaskedTB";
             this.CPFMaskedTB.Size = new System.Drawing.Size(206, 33);
-            this.CPFMaskedTB.TabIndex = 46;
+            this.CPFMaskedTB.TabIndex = 3;
             // 
             // labelObs
             // 
@@ -176,7 +176,7 @@
             this.complementoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.complementoTextBox.Name = "complementoTextBox";
             this.complementoTextBox.Size = new System.Drawing.Size(355, 33);
-            this.complementoTextBox.TabIndex = 38;
+            this.complementoTextBox.TabIndex = 6;
             // 
             // enderecoTextBox
             // 
@@ -185,7 +185,8 @@
             this.enderecoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.enderecoTextBox.Name = "enderecoTextBox";
             this.enderecoTextBox.Size = new System.Drawing.Size(355, 33);
-            this.enderecoTextBox.TabIndex = 37;
+            this.enderecoTextBox.TabIndex = 5;
+            this.enderecoTextBox.TextChanged += new System.EventHandler(this.enderecoTextBox_TextChanged);
             // 
             // EmailTextBox
             // 
@@ -194,7 +195,7 @@
             this.EmailTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.EmailTextBox.Name = "EmailTextBox";
             this.EmailTextBox.Size = new System.Drawing.Size(355, 33);
-            this.EmailTextBox.TabIndex = 36;
+            this.EmailTextBox.TabIndex = 1;
             // 
             // TelefoneMaskTB
             // 
@@ -204,7 +205,7 @@
             this.TelefoneMaskTB.Mask = "(99) 0000-0000";
             this.TelefoneMaskTB.Name = "TelefoneMaskTB";
             this.TelefoneMaskTB.Size = new System.Drawing.Size(206, 33);
-            this.TelefoneMaskTB.TabIndex = 35;
+            this.TelefoneMaskTB.TabIndex = 2;
             // 
             // nameTextBot
             // 
@@ -213,7 +214,7 @@
             this.nameTextBot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nameTextBot.Name = "nameTextBot";
             this.nameTextBot.Size = new System.Drawing.Size(332, 33);
-            this.nameTextBot.TabIndex = 34;
+            this.nameTextBot.TabIndex = 0;
             // 
             // TelaCadastroCliente
             // 

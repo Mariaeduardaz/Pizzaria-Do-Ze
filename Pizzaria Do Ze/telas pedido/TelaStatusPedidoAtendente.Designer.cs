@@ -39,7 +39,10 @@
             this.labelID = new System.Windows.Forms.Label();
             this.idPedidoLabelStatusAtendente = new System.Windows.Forms.Label();
             this.labelEntrgador = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxentregador = new System.Windows.Forms.ComboBox();
+            this.grouboxpagamento = new System.Windows.Forms.GroupBox();
+            this.groupBoxstatuspedido = new System.Windows.Forms.GroupBox();
+            this.grouboxpagamento.SuspendLayout();
             this.SuspendLayout();
             // 
             // labelStatusPagamento
@@ -67,11 +70,11 @@
             // pagoRadioBtn
             // 
             this.pagoRadioBtn.AutoSize = true;
-            this.pagoRadioBtn.Location = new System.Drawing.Point(215, 78);
+            this.pagoRadioBtn.Location = new System.Drawing.Point(7, 27);
             this.pagoRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pagoRadioBtn.Name = "pagoRadioBtn";
             this.pagoRadioBtn.Size = new System.Drawing.Size(71, 24);
-            this.pagoRadioBtn.TabIndex = 3;
+            this.pagoRadioBtn.TabIndex = 1;
             this.pagoRadioBtn.TabStop = true;
             this.pagoRadioBtn.Text = "Pago";
             this.pagoRadioBtn.UseVisualStyleBackColor = true;
@@ -79,11 +82,11 @@
             // pendenteRadioBtn
             // 
             this.pendenteRadioBtn.AutoSize = true;
-            this.pendenteRadioBtn.Location = new System.Drawing.Point(215, 112);
+            this.pendenteRadioBtn.Location = new System.Drawing.Point(7, 61);
             this.pendenteRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pendenteRadioBtn.Name = "pendenteRadioBtn";
             this.pendenteRadioBtn.Size = new System.Drawing.Size(103, 24);
-            this.pendenteRadioBtn.TabIndex = 4;
+            this.pendenteRadioBtn.TabIndex = 2;
             this.pendenteRadioBtn.TabStop = true;
             this.pendenteRadioBtn.Text = "Pendente";
             this.pendenteRadioBtn.UseVisualStyleBackColor = true;
@@ -95,7 +98,7 @@
             this.preparoRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.preparoRadioBtn.Name = "preparoRadioBtn";
             this.preparoRadioBtn.Size = new System.Drawing.Size(117, 24);
-            this.preparoRadioBtn.TabIndex = 5;
+            this.preparoRadioBtn.TabIndex = 3;
             this.preparoRadioBtn.TabStop = true;
             this.preparoRadioBtn.Text = "Em preparo";
             this.preparoRadioBtn.UseVisualStyleBackColor = true;
@@ -107,7 +110,7 @@
             this.RetiradaRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.RetiradaRadioBtn.Name = "RetiradaRadioBtn";
             this.RetiradaRadioBtn.Size = new System.Drawing.Size(95, 24);
-            this.RetiradaRadioBtn.TabIndex = 6;
+            this.RetiradaRadioBtn.TabIndex = 4;
             this.RetiradaRadioBtn.TabStop = true;
             this.RetiradaRadioBtn.Text = "Retirada";
             this.RetiradaRadioBtn.UseVisualStyleBackColor = true;
@@ -119,7 +122,7 @@
             this.SaiuRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.SaiuRadioBtn.Name = "SaiuRadioBtn";
             this.SaiuRadioBtn.Size = new System.Drawing.Size(161, 24);
-            this.SaiuRadioBtn.TabIndex = 7;
+            this.SaiuRadioBtn.TabIndex = 5;
             this.SaiuRadioBtn.TabStop = true;
             this.SaiuRadioBtn.Text = "Saiu para entrega";
             this.SaiuRadioBtn.UseVisualStyleBackColor = true;
@@ -131,7 +134,7 @@
             this.btnFechar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(126, 40);
-            this.btnFechar.TabIndex = 8;
+            this.btnFechar.TabIndex = 7;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.button1_Click);
@@ -155,7 +158,7 @@
             this.idPedidoLabelStatusAtendente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.idPedidoLabelStatusAtendente.Name = "idPedidoLabelStatusAtendente";
             this.idPedidoLabelStatusAtendente.Size = new System.Drawing.Size(100, 25);
-            this.idPedidoLabelStatusAtendente.TabIndex = 10;
+            this.idPedidoLabelStatusAtendente.TabIndex = 0;
             this.idPedidoLabelStatusAtendente.Text = "#9901011";
             // 
             // labelEntrgador
@@ -169,14 +172,35 @@
             this.labelEntrgador.TabIndex = 11;
             this.labelEntrgador.Text = "Entregador: ";
             // 
-            // comboBox1
+            // comboBoxentregador
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(123, 323);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(180, 28);
-            this.comboBox1.TabIndex = 12;
+            this.comboBoxentregador.FormattingEnabled = true;
+            this.comboBoxentregador.Location = new System.Drawing.Point(123, 323);
+            this.comboBoxentregador.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBoxentregador.Name = "comboBoxentregador";
+            this.comboBoxentregador.Size = new System.Drawing.Size(180, 28);
+            this.comboBoxentregador.TabIndex = 6;
+            // 
+            // grouboxpagamento
+            // 
+            this.grouboxpagamento.Controls.Add(this.pendenteRadioBtn);
+            this.grouboxpagamento.Controls.Add(this.pagoRadioBtn);
+            this.grouboxpagamento.Location = new System.Drawing.Point(215, 57);
+            this.grouboxpagamento.Name = "grouboxpagamento";
+            this.grouboxpagamento.Size = new System.Drawing.Size(132, 100);
+            this.grouboxpagamento.TabIndex = 12;
+            this.grouboxpagamento.TabStop = false;
+            this.grouboxpagamento.Text = "pagamento";
+            this.grouboxpagamento.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // groupBoxstatuspedido
+            // 
+            this.groupBoxstatuspedido.Location = new System.Drawing.Point(175, 163);
+            this.groupBoxstatuspedido.Name = "groupBoxstatuspedido";
+            this.groupBoxstatuspedido.Size = new System.Drawing.Size(210, 128);
+            this.groupBoxstatuspedido.TabIndex = 13;
+            this.groupBoxstatuspedido.TabStop = false;
+            this.groupBoxstatuspedido.Text = "status";
             // 
             // TelaStatusPedidoAtendente
             // 
@@ -184,7 +208,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(403, 417);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBoxentregador);
             this.Controls.Add(this.labelEntrgador);
             this.Controls.Add(this.idPedidoLabelStatusAtendente);
             this.Controls.Add(this.labelID);
@@ -192,10 +216,10 @@
             this.Controls.Add(this.SaiuRadioBtn);
             this.Controls.Add(this.RetiradaRadioBtn);
             this.Controls.Add(this.preparoRadioBtn);
-            this.Controls.Add(this.pendenteRadioBtn);
-            this.Controls.Add(this.pagoRadioBtn);
             this.Controls.Add(this.labelStatusPedido);
             this.Controls.Add(this.labelStatusPagamento);
+            this.Controls.Add(this.grouboxpagamento);
+            this.Controls.Add(this.groupBoxstatuspedido);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
@@ -203,6 +227,8 @@
             this.Name = "TelaStatusPedidoAtendente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Status Atendente";
+            this.grouboxpagamento.ResumeLayout(false);
+            this.grouboxpagamento.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,6 +247,8 @@
         private System.Windows.Forms.Label labelID;
         private System.Windows.Forms.Label idPedidoLabelStatusAtendente;
         private System.Windows.Forms.Label labelEntrgador;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxentregador;
+        private System.Windows.Forms.GroupBox grouboxpagamento;
+        private System.Windows.Forms.GroupBox groupBoxstatuspedido;
     }
 }

@@ -44,7 +44,7 @@
             this.saboresListBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.saboresListBox.Name = "saboresListBox";
             this.saboresListBox.Size = new System.Drawing.Size(414, 304);
-            this.saboresListBox.TabIndex = 0;
+            this.saboresListBox.TabIndex = 4;
             // 
             // addBtn
             // 
@@ -52,18 +52,18 @@
             this.addBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.addBtn.Name = "addBtn";
             this.addBtn.Size = new System.Drawing.Size(92, 51);
-            this.addBtn.TabIndex = 1;
+            this.addBtn.TabIndex = 0;
             this.addBtn.Text = "Adicionar";
             this.addBtn.UseVisualStyleBackColor = true;
             this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             // 
             // editBtn
             // 
-            this.editBtn.Location = new System.Drawing.Point(113, 14);
+            this.editBtn.Location = new System.Drawing.Point(112, 14);
             this.editBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.editBtn.Name = "editBtn";
             this.editBtn.Size = new System.Drawing.Size(95, 51);
-            this.editBtn.TabIndex = 2;
+            this.editBtn.TabIndex = 1;
             this.editBtn.Text = "Editar";
             this.editBtn.UseVisualStyleBackColor = true;
             // 
@@ -83,7 +83,7 @@
             this.voltarBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.voltarBtn.Name = "voltarBtn";
             this.voltarBtn.Size = new System.Drawing.Size(122, 51);
-            this.voltarBtn.TabIndex = 4;
+            this.voltarBtn.TabIndex = 5;
             this.voltarBtn.Text = "Voltar";
             this.voltarBtn.UseVisualStyleBackColor = true;
             this.voltarBtn.Click += new System.EventHandler(this.voltarBtn_Click);
@@ -94,7 +94,7 @@
             this.btnVerificar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnVerificar.Name = "btnVerificar";
             this.btnVerificar.Size = new System.Drawing.Size(102, 51);
-            this.btnVerificar.TabIndex = 5;
+            this.btnVerificar.TabIndex = 2;
             this.btnVerificar.Text = "Verificar";
             this.btnVerificar.UseVisualStyleBackColor = true;
             // 

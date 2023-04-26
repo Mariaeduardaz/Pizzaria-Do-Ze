@@ -43,6 +43,8 @@
             this.cancelBtn = new System.Windows.Forms.Button();
             this.checkBoxCartaoCredito = new System.Windows.Forms.CheckBox();
             this.checkBoxCartaoDebito = new System.Windows.Forms.CheckBox();
+            this.groupBoxEntrega = new System.Windows.Forms.GroupBox();
+            this.groupBoxPagamento = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
             // 
             // retiradaRadioBtn
@@ -84,7 +86,7 @@
             // 
             this.labelTotalPedidoFinal.AutoSize = true;
             this.labelTotalPedidoFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTotalPedidoFinal.Location = new System.Drawing.Point(12, 193);
+            this.labelTotalPedidoFinal.Location = new System.Drawing.Point(12, 247);
             this.labelTotalPedidoFinal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTotalPedidoFinal.Name = "labelTotalPedidoFinal";
             this.labelTotalPedidoFinal.Size = new System.Drawing.Size(190, 29);
@@ -95,18 +97,18 @@
             // 
             this.totalPedidoFinalLabel.AutoSize = true;
             this.totalPedidoFinalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalPedidoFinalLabel.Location = new System.Drawing.Point(210, 193);
+            this.totalPedidoFinalLabel.Location = new System.Drawing.Point(210, 247);
             this.totalPedidoFinalLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totalPedidoFinalLabel.Name = "totalPedidoFinalLabel";
             this.totalPedidoFinalLabel.Size = new System.Drawing.Size(101, 29);
-            this.totalPedidoFinalLabel.TabIndex = 4;
+            this.totalPedidoFinalLabel.TabIndex = 7;
             this.totalPedidoFinalLabel.Text = "R$45,00";
             // 
             // labelFormaPagamento
             // 
             this.labelFormaPagamento.AutoSize = true;
             this.labelFormaPagamento.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFormaPagamento.Location = new System.Drawing.Point(13, 106);
+            this.labelFormaPagamento.Location = new System.Drawing.Point(28, 137);
             this.labelFormaPagamento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelFormaPagamento.Name = "labelFormaPagamento";
             this.labelFormaPagamento.Size = new System.Drawing.Size(222, 25);
@@ -116,11 +118,11 @@
             // cartaoRadioBtn
             // 
             this.cartaoRadioBtn.AutoSize = true;
-            this.cartaoRadioBtn.Location = new System.Drawing.Point(420, 108);
+            this.cartaoRadioBtn.Location = new System.Drawing.Point(438, 140);
             this.cartaoRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cartaoRadioBtn.Name = "cartaoRadioBtn";
             this.cartaoRadioBtn.Size = new System.Drawing.Size(82, 24);
-            this.cartaoRadioBtn.TabIndex = 7;
+            this.cartaoRadioBtn.TabIndex = 4;
             this.cartaoRadioBtn.TabStop = true;
             this.cartaoRadioBtn.Text = "Cartão";
             this.cartaoRadioBtn.UseVisualStyleBackColor = true;
@@ -128,11 +130,11 @@
             // pixRadioBtn
             // 
             this.pixRadioBtn.AutoSize = true;
-            this.pixRadioBtn.Location = new System.Drawing.Point(251, 106);
+            this.pixRadioBtn.Location = new System.Drawing.Point(269, 138);
             this.pixRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pixRadioBtn.Name = "pixRadioBtn";
             this.pixRadioBtn.Size = new System.Drawing.Size(60, 24);
-            this.pixRadioBtn.TabIndex = 8;
+            this.pixRadioBtn.TabIndex = 2;
             this.pixRadioBtn.TabStop = true;
             this.pixRadioBtn.Text = "PIX";
             this.pixRadioBtn.UseVisualStyleBackColor = true;
@@ -140,18 +142,18 @@
             // dinheiroRadioBtn
             // 
             this.dinheiroRadioBtn.AutoSize = true;
-            this.dinheiroRadioBtn.Location = new System.Drawing.Point(319, 106);
+            this.dinheiroRadioBtn.Location = new System.Drawing.Point(337, 138);
             this.dinheiroRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dinheiroRadioBtn.Name = "dinheiroRadioBtn";
             this.dinheiroRadioBtn.Size = new System.Drawing.Size(93, 24);
-            this.dinheiroRadioBtn.TabIndex = 9;
+            this.dinheiroRadioBtn.TabIndex = 3;
             this.dinheiroRadioBtn.TabStop = true;
             this.dinheiroRadioBtn.Text = "Dinheiro";
             this.dinheiroRadioBtn.UseVisualStyleBackColor = true;
             // 
             // trocoTextBox
             // 
-            this.trocoTextBox.Location = new System.Drawing.Point(116, 145);
+            this.trocoTextBox.Location = new System.Drawing.Point(116, 199);
             this.trocoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.trocoTextBox.Name = "trocoTextBox";
             this.trocoTextBox.Size = new System.Drawing.Size(210, 26);
@@ -160,7 +162,7 @@
             // labelTroco
             // 
             this.labelTroco.AutoSize = true;
-            this.labelTroco.Location = new System.Drawing.Point(13, 148);
+            this.labelTroco.Location = new System.Drawing.Point(13, 202);
             this.labelTroco.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTroco.Name = "labelTroco";
             this.labelTroco.Size = new System.Drawing.Size(93, 20);
@@ -169,22 +171,22 @@
             // 
             // finalizarBtn
             // 
-            this.finalizarBtn.Location = new System.Drawing.Point(495, 253);
+            this.finalizarBtn.Location = new System.Drawing.Point(496, 294);
             this.finalizarBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.finalizarBtn.Name = "finalizarBtn";
             this.finalizarBtn.Size = new System.Drawing.Size(123, 35);
-            this.finalizarBtn.TabIndex = 12;
+            this.finalizarBtn.TabIndex = 9;
             this.finalizarBtn.Text = "Finalizar";
             this.finalizarBtn.UseVisualStyleBackColor = true;
             this.finalizarBtn.Click += new System.EventHandler(this.finalizarBtn_Click);
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(360, 253);
+            this.cancelBtn.Location = new System.Drawing.Point(361, 294);
             this.cancelBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(122, 35);
-            this.cancelBtn.TabIndex = 13;
+            this.cancelBtn.TabIndex = 8;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             // 
@@ -192,10 +194,10 @@
             // 
             this.checkBoxCartaoCredito.AutoSize = true;
             this.checkBoxCartaoCredito.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.checkBoxCartaoCredito.Location = new System.Drawing.Point(505, 95);
+            this.checkBoxCartaoCredito.Location = new System.Drawing.Point(523, 127);
             this.checkBoxCartaoCredito.Name = "checkBoxCartaoCredito";
             this.checkBoxCartaoCredito.Size = new System.Drawing.Size(86, 24);
-            this.checkBoxCartaoCredito.TabIndex = 14;
+            this.checkBoxCartaoCredito.TabIndex = 5;
             this.checkBoxCartaoCredito.Text = "Credito";
             this.checkBoxCartaoCredito.UseVisualStyleBackColor = true;
             // 
@@ -203,19 +205,37 @@
             // 
             this.checkBoxCartaoDebito.AutoSize = true;
             this.checkBoxCartaoDebito.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.checkBoxCartaoDebito.Location = new System.Drawing.Point(505, 125);
+            this.checkBoxCartaoDebito.Location = new System.Drawing.Point(523, 157);
             this.checkBoxCartaoDebito.Name = "checkBoxCartaoDebito";
             this.checkBoxCartaoDebito.Size = new System.Drawing.Size(82, 24);
-            this.checkBoxCartaoDebito.TabIndex = 15;
+            this.checkBoxCartaoDebito.TabIndex = 6;
             this.checkBoxCartaoDebito.Text = "Debito";
             this.checkBoxCartaoDebito.UseVisualStyleBackColor = true;
+            // 
+            // groupBoxEntrega
+            // 
+            this.groupBoxEntrega.Location = new System.Drawing.Point(12, 3);
+            this.groupBoxEntrega.Name = "groupBoxEntrega";
+            this.groupBoxEntrega.Size = new System.Drawing.Size(238, 107);
+            this.groupBoxEntrega.TabIndex = 12;
+            this.groupBoxEntrega.TabStop = false;
+            this.groupBoxEntrega.Text = "entrega ";
+            // 
+            // groupBoxPagamento
+            // 
+            this.groupBoxPagamento.Location = new System.Drawing.Point(12, 116);
+            this.groupBoxPagamento.Name = "groupBoxPagamento";
+            this.groupBoxPagamento.Size = new System.Drawing.Size(608, 75);
+            this.groupBoxPagamento.TabIndex = 13;
+            this.groupBoxPagamento.TabStop = false;
+            this.groupBoxPagamento.Text = "Pagamento";
             // 
             // TelaPedidoFinal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(624, 293);
+            this.ClientSize = new System.Drawing.Size(632, 343);
             this.Controls.Add(this.checkBoxCartaoDebito);
             this.Controls.Add(this.checkBoxCartaoCredito);
             this.Controls.Add(this.cancelBtn);
@@ -231,6 +251,8 @@
             this.Controls.Add(this.labelEntrega);
             this.Controls.Add(this.entregaRadiobtn);
             this.Controls.Add(this.retiradaRadioBtn);
+            this.Controls.Add(this.groupBoxEntrega);
+            this.Controls.Add(this.groupBoxPagamento);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
@@ -260,5 +282,7 @@
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.CheckBox checkBoxCartaoCredito;
         private System.Windows.Forms.CheckBox checkBoxCartaoDebito;
+        private System.Windows.Forms.GroupBox groupBoxEntrega;
+        private System.Windows.Forms.GroupBox groupBoxPagamento;
     }
 }

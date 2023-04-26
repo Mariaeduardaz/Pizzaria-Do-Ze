@@ -62,7 +62,7 @@
             this.checkBoxIdiomaReiniciar.Location = new System.Drawing.Point(155, 103);
             this.checkBoxIdiomaReiniciar.Name = "checkBoxIdiomaReiniciar";
             this.checkBoxIdiomaReiniciar.Size = new System.Drawing.Size(392, 24);
-            this.checkBoxIdiomaReiniciar.TabIndex = 2;
+            this.checkBoxIdiomaReiniciar.TabIndex = 1;
             this.checkBoxIdiomaReiniciar.Text = "Reiniciar para aplicar o novo idioma imediatamente";
             this.checkBoxIdiomaReiniciar.UseVisualStyleBackColor = true;
             // 
@@ -71,7 +71,7 @@
             this.BtnSalvar.Location = new System.Drawing.Point(428, 156);
             this.BtnSalvar.Name = "BtnSalvar";
             this.BtnSalvar.Size = new System.Drawing.Size(119, 39);
-            this.BtnSalvar.TabIndex = 3;
+            this.BtnSalvar.TabIndex = 2;
             this.BtnSalvar.Text = "Salvar";
             this.BtnSalvar.UseVisualStyleBackColor = true;
             this.BtnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);

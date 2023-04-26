@@ -63,7 +63,7 @@
             this.pagamentoLabelDetalhePedido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pagamentoLabelDetalhePedido.Name = "pagamentoLabelDetalhePedido";
             this.pagamentoLabelDetalhePedido.Size = new System.Drawing.Size(121, 20);
-            this.pagamentoLabelDetalhePedido.TabIndex = 21;
+            this.pagamentoLabelDetalhePedido.TabIndex = 4;
             this.pagamentoLabelDetalhePedido.Text = "Cartão - Credito";
             // 
             // labelPagamento
@@ -83,7 +83,7 @@
             this.endereoLabelDetalhePedido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.endereoLabelDetalhePedido.Name = "endereoLabelDetalhePedido";
             this.endereoLabelDetalhePedido.Size = new System.Drawing.Size(234, 20);
-            this.endereoLabelDetalhePedido.TabIndex = 19;
+            this.endereoLabelDetalhePedido.TabIndex = 5;
             this.endereoLabelDetalhePedido.Text = "Rua Virgilio Godinho 543 centro";
             // 
             // pedidoLabelDetalhePedido
@@ -93,7 +93,7 @@
             this.pedidoLabelDetalhePedido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pedidoLabelDetalhePedido.Name = "pedidoLabelDetalhePedido";
             this.pedidoLabelDetalhePedido.Size = new System.Drawing.Size(288, 20);
-            this.pedidoLabelDetalhePedido.TabIndex = 18;
+            this.pedidoLabelDetalhePedido.TabIndex = 3;
             this.pedidoLabelDetalhePedido.Text = "Pizza broto, chocolate, coca-cola 600ml";
             // 
             // statusPedidoLabelDetalhePedido
@@ -103,7 +103,7 @@
             this.statusPedidoLabelDetalhePedido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.statusPedidoLabelDetalhePedido.Name = "statusPedidoLabelDetalhePedido";
             this.statusPedidoLabelDetalhePedido.Size = new System.Drawing.Size(140, 20);
-            this.statusPedidoLabelDetalhePedido.TabIndex = 17;
+            this.statusPedidoLabelDetalhePedido.TabIndex = 1;
             this.statusPedidoLabelDetalhePedido.Text = "Entregue as 21:30";
             // 
             // idPedidoLabelDetalhePedido
@@ -113,7 +113,7 @@
             this.idPedidoLabelDetalhePedido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.idPedidoLabelDetalhePedido.Name = "idPedidoLabelDetalhePedido";
             this.idPedidoLabelDetalhePedido.Size = new System.Drawing.Size(81, 20);
-            this.idPedidoLabelDetalhePedido.TabIndex = 16;
+            this.idPedidoLabelDetalhePedido.TabIndex = 0;
             this.idPedidoLabelDetalhePedido.Text = "#8732973";
             // 
             // labelEndereco
@@ -162,7 +162,7 @@
             this.fecharBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.fecharBtn.Name = "fecharBtn";
             this.fecharBtn.Size = new System.Drawing.Size(112, 35);
-            this.fecharBtn.TabIndex = 25;
+            this.fecharBtn.TabIndex = 7;
             this.fecharBtn.Text = "Fechar";
             this.fecharBtn.UseVisualStyleBackColor = true;
             this.fecharBtn.Click += new System.EventHandler(this.fecharBtn_Click);
@@ -174,7 +174,7 @@
             this.entregadorResponsavelLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.entregadorResponsavelLabel.Name = "entregadorResponsavelLabel";
             this.entregadorResponsavelLabel.Size = new System.Drawing.Size(38, 20);
-            this.entregadorResponsavelLabel.TabIndex = 26;
+            this.entregadorResponsavelLabel.TabIndex = 2;
             this.entregadorResponsavelLabel.Text = "Luiz";
             // 
             // labelNome
@@ -194,7 +194,7 @@
             this.valorLabelDetalhePedido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.valorLabelDetalhePedido.Name = "valorLabelDetalhePedido";
             this.valorLabelDetalhePedido.Size = new System.Drawing.Size(70, 20);
-            this.valorLabelDetalhePedido.TabIndex = 28;
+            this.valorLabelDetalhePedido.TabIndex = 6;
             this.valorLabelDetalhePedido.Text = "R$45,00";
             // 
             // labelDetalhePedidoDetalhePedido

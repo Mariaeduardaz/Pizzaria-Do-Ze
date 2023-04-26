@@ -51,7 +51,7 @@
             this.BtnExcluir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnExcluir.Name = "BtnExcluir";
             this.BtnExcluir.Size = new System.Drawing.Size(183, 51);
-            this.BtnExcluir.TabIndex = 2;
+            this.BtnExcluir.TabIndex = 1;
             this.BtnExcluir.Text = "Excluir selecionado";
             this.BtnExcluir.UseVisualStyleBackColor = true;
             // 

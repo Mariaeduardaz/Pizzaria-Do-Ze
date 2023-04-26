@@ -39,7 +39,7 @@
             this.pedPendentesBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pedPendentesBtn.Name = "pedPendentesBtn";
             this.pedPendentesBtn.Size = new System.Drawing.Size(221, 52);
-            this.pedPendentesBtn.TabIndex = 0;
+            this.pedPendentesBtn.TabIndex = 1;
             this.pedPendentesBtn.Text = " Pedidos Pendentes";
             this.pedPendentesBtn.UseVisualStyleBackColor = true;
             this.pedPendentesBtn.Click += new System.EventHandler(this.pedPendentesBtn_Click);
@@ -50,7 +50,7 @@
             this.pedEntreguesBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pedEntreguesBtn.Name = "pedEntreguesBtn";
             this.pedEntreguesBtn.Size = new System.Drawing.Size(221, 52);
-            this.pedEntreguesBtn.TabIndex = 1;
+            this.pedEntreguesBtn.TabIndex = 0;
             this.pedEntreguesBtn.Text = " Pedidos Entregues";
             this.pedEntreguesBtn.UseVisualStyleBackColor = true;
             this.pedEntreguesBtn.Click += new System.EventHandler(this.pedEntreguesBtn_Click);

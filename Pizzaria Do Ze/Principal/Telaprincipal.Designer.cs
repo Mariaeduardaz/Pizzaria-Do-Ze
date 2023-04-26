@@ -49,7 +49,7 @@
             this.btnPizza.Location = new System.Drawing.Point(394, 88);
             this.btnPizza.Name = "btnPizza";
             this.btnPizza.Size = new System.Drawing.Size(130, 44);
-            this.btnPizza.TabIndex = 1;
+            this.btnPizza.TabIndex = 3;
             this.btnPizza.Text = "Pizza";
             this.btnPizza.UseVisualStyleBackColor = true;
             this.btnPizza.Click += new System.EventHandler(this.button2_Click);
@@ -69,7 +69,7 @@
             this.btnAtendente.Location = new System.Drawing.Point(142, 88);
             this.btnAtendente.Name = "btnAtendente";
             this.btnAtendente.Size = new System.Drawing.Size(120, 44);
-            this.btnAtendente.TabIndex = 3;
+            this.btnAtendente.TabIndex = 1;
             this.btnAtendente.Text = "Atendente";
             this.btnAtendente.UseVisualStyleBackColor = true;
             this.btnAtendente.Click += new System.EventHandler(this.button4_Click);

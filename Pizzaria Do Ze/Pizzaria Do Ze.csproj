@@ -235,6 +235,12 @@
     <Compile Include="Principal\TelaPrincipalEntregador.Designer.cs">
       <DependentUpon>TelaPrincipalEntregador.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControlOperacoes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlOperacoes.Designer.cs">
+      <DependentUpon>UserControlOperacoes.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Administrador\TelaEditarBorda.resx">
       <DependentUpon>TelaEditarBorda.cs</DependentUpon>
     </EmbeddedResource>
@@ -266,6 +272,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TelaLogin.resx">
       <DependentUpon>TelaLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -335,6 +342,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Principal\TelaPrincipalEntregador.resx">
       <DependentUpon>TelaPrincipalEntregador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlOperacoes.resx">
+      <DependentUpon>UserControlOperacoes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -51,6 +51,7 @@
             this.nomeTextBox.Name = "nomeTextBox";
             this.nomeTextBox.Size = new System.Drawing.Size(224, 26);
             this.nomeTextBox.TabIndex = 0;
+            this.nomeTextBox.TextChanged += new System.EventHandler(this.nomeTextBox_TextChanged);
             // 
             // btnCancelar
             // 

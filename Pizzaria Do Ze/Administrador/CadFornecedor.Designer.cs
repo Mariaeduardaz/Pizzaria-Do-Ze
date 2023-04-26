@@ -58,7 +58,7 @@
             this.BtnCadastrar.Location = new System.Drawing.Point(375, 363);
             this.BtnCadastrar.Name = "BtnCadastrar";
             this.BtnCadastrar.Size = new System.Drawing.Size(134, 38);
-            this.BtnCadastrar.TabIndex = 2;
+            this.BtnCadastrar.TabIndex = 7;
             this.BtnCadastrar.Text = "Cadastrar";
             this.BtnCadastrar.UseVisualStyleBackColor = true;
             // 
@@ -70,7 +70,7 @@
             this.CEPMaskedTB.Mask = "00000-000";
             this.CEPMaskedTB.Name = "CEPMaskedTB";
             this.CEPMaskedTB.Size = new System.Drawing.Size(206, 33);
-            this.CEPMaskedTB.TabIndex = 47;
+            this.CEPMaskedTB.TabIndex = 4;
             // 
             // CPFMaskedTB
             // 
@@ -80,7 +80,7 @@
             this.CPFMaskedTB.Mask = "000.000.000-00";
             this.CPFMaskedTB.Name = "CPFMaskedTB";
             this.CPFMaskedTB.Size = new System.Drawing.Size(206, 33);
-            this.CPFMaskedTB.TabIndex = 46;
+            this.CPFMaskedTB.TabIndex = 3;
             // 
             // labelObs
             // 
@@ -159,7 +159,7 @@
             this.complementoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.complementoTextBox.Name = "complementoTextBox";
             this.complementoTextBox.Size = new System.Drawing.Size(355, 33);
-            this.complementoTextBox.TabIndex = 38;
+            this.complementoTextBox.TabIndex = 6;
             // 
             // enderecoTextBox
             // 
@@ -168,7 +168,7 @@
             this.enderecoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.enderecoTextBox.Name = "enderecoTextBox";
             this.enderecoTextBox.Size = new System.Drawing.Size(355, 33);
-            this.enderecoTextBox.TabIndex = 37;
+            this.enderecoTextBox.TabIndex = 5;
             // 
             // EmailTextBox
             // 
@@ -177,7 +177,7 @@
             this.EmailTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.EmailTextBox.Name = "EmailTextBox";
             this.EmailTextBox.Size = new System.Drawing.Size(355, 33);
-            this.EmailTextBox.TabIndex = 36;
+            this.EmailTextBox.TabIndex = 1;
             // 
             // TelefoneMaskTB
             // 
@@ -187,7 +187,7 @@
             this.TelefoneMaskTB.Mask = "(99) 0000-0000";
             this.TelefoneMaskTB.Name = "TelefoneMaskTB";
             this.TelefoneMaskTB.Size = new System.Drawing.Size(206, 33);
-            this.TelefoneMaskTB.TabIndex = 35;
+            this.TelefoneMaskTB.TabIndex = 2;
             // 
             // nameTextBot
             // 
@@ -196,7 +196,7 @@
             this.nameTextBot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nameTextBot.Name = "nameTextBot";
             this.nameTextBot.Size = new System.Drawing.Size(332, 33);
-            this.nameTextBot.TabIndex = 34;
+            this.nameTextBot.TabIndex = 0;
             // 
             // CadFornecedor
             // 

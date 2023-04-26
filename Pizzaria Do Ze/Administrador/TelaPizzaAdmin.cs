@@ -26,6 +26,17 @@ namespace Pizzaria_Do_Ze.Telas_Cadastrais
             InitializeComponent();
             valoresBtn.Focus();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+
+            valoresBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            valoresBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            saboresBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            saboresBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnIngrendiente.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnIngrendiente.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnVoltar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnVoltar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+          
         }
 
         private void saboresBtn_Click(object sender, EventArgs e)

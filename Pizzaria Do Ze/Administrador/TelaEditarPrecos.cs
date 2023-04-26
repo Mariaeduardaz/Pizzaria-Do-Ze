@@ -20,6 +20,22 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             InitializeComponent();
             valorGrandeTB.Focus();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+
+            valorGrandeTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            valorGrandeTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            valorGiganteTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            valorGiganteTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            valorExtraGiganteTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            valorExtraGiganteTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            valorEspeciaisTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            valorEspeciaisTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            valorBrotoTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            valorBrotoTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnCancelar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnCancelar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnAtualizar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnAtualizar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
         }
 
         private void cancelBtn_Click(object sender, EventArgs e)

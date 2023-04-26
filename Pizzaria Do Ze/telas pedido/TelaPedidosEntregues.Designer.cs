@@ -51,7 +51,7 @@
             this.btnFechar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(117, 38);
-            this.btnFechar.TabIndex = 4;
+            this.btnFechar.TabIndex = 3;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.button1_Click);
@@ -62,7 +62,7 @@
             this.abrirPedidoBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.abrirPedidoBtn.Name = "abrirPedidoBtn";
             this.abrirPedidoBtn.Size = new System.Drawing.Size(202, 57);
-            this.abrirPedidoBtn.TabIndex = 3;
+            this.abrirPedidoBtn.TabIndex = 1;
             this.abrirPedidoBtn.Text = "Abrir pedido";
             this.abrirPedidoBtn.UseVisualStyleBackColor = true;
             this.abrirPedidoBtn.Click += new System.EventHandler(this.abrirPedidoBtn_Click);
@@ -84,7 +84,7 @@
             this.labelNumeroPedidosEntregues.Location = new System.Drawing.Point(12, 494);
             this.labelNumeroPedidosEntregues.Name = "labelNumeroPedidosEntregues";
             this.labelNumeroPedidosEntregues.Size = new System.Drawing.Size(251, 24);
-            this.labelNumeroPedidosEntregues.TabIndex = 6;
+            this.labelNumeroPedidosEntregues.TabIndex = 2;
             this.labelNumeroPedidosEntregues.Text = "23 pedidos entregues hoje";
             // 
             // TelaPedidosEntregues

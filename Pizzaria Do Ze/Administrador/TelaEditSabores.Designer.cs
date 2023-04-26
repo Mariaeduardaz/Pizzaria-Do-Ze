@@ -66,7 +66,7 @@
             this.nomePizzaTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nomePizzaTextBox.Name = "nomePizzaTextBox";
             this.nomePizzaTextBox.Size = new System.Drawing.Size(246, 26);
-            this.nomePizzaTextBox.TabIndex = 2;
+            this.nomePizzaTextBox.TabIndex = 0;
             // 
             // ingredientesComboBox
             // 
@@ -75,7 +75,7 @@
             this.ingredientesComboBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ingredientesComboBox.Name = "ingredientesComboBox";
             this.ingredientesComboBox.Size = new System.Drawing.Size(246, 28);
-            this.ingredientesComboBox.TabIndex = 3;
+            this.ingredientesComboBox.TabIndex = 1;
             // 
             // btnAdiconar
             // 
@@ -83,7 +83,7 @@
             this.btnAdiconar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAdiconar.Name = "btnAdiconar";
             this.btnAdiconar.Size = new System.Drawing.Size(142, 38);
-            this.btnAdiconar.TabIndex = 4;
+            this.btnAdiconar.TabIndex = 3;
             this.btnAdiconar.Text = "Adicionar";
             this.btnAdiconar.UseVisualStyleBackColor = true;
             // 
@@ -95,7 +95,7 @@
             this.saboresEscolhidosListBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.saboresEscolhidosListBox.Name = "saboresEscolhidosListBox";
             this.saboresEscolhidosListBox.Size = new System.Drawing.Size(535, 224);
-            this.saboresEscolhidosListBox.TabIndex = 5;
+            this.saboresEscolhidosListBox.TabIndex = 4;
             // 
             // especialCheckBoxespecialCheckBox
             // 
@@ -104,7 +104,7 @@
             this.especialCheckBoxespecialCheckBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.especialCheckBoxespecialCheckBox.Name = "especialCheckBoxespecialCheckBox";
             this.especialCheckBoxespecialCheckBox.Size = new System.Drawing.Size(142, 24);
-            this.especialCheckBoxespecialCheckBox.TabIndex = 6;
+            this.especialCheckBoxespecialCheckBox.TabIndex = 2;
             this.especialCheckBoxespecialCheckBox.Text = "Sabor Especial";
             this.especialCheckBoxespecialCheckBox.UseVisualStyleBackColor = true;
             // 
@@ -114,7 +114,7 @@
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(104, 32);
-            this.btnCancelar.TabIndex = 7;
+            this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.cancelBtn_Click);
@@ -125,7 +125,7 @@
             this.BtnCadastrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnCadastrar.Name = "BtnCadastrar";
             this.BtnCadastrar.Size = new System.Drawing.Size(102, 32);
-            this.BtnCadastrar.TabIndex = 8;
+            this.BtnCadastrar.TabIndex = 7;
             this.BtnCadastrar.Text = "Cadastrar";
             this.BtnCadastrar.UseVisualStyleBackColor = true;
             this.BtnCadastrar.Click += new System.EventHandler(this.cadastrarBtn_Click);
@@ -136,7 +136,7 @@
             this.btnExcluir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(168, 35);
-            this.btnExcluir.TabIndex = 9;
+            this.btnExcluir.TabIndex = 5;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
             // 

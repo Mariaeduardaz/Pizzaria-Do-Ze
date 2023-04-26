@@ -53,7 +53,7 @@
             this.comprarExtraGiganteBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comprarExtraGiganteBtn.Name = "comprarExtraGiganteBtn";
             this.comprarExtraGiganteBtn.Size = new System.Drawing.Size(146, 32);
-            this.comprarExtraGiganteBtn.TabIndex = 0;
+            this.comprarExtraGiganteBtn.TabIndex = 1;
             this.comprarExtraGiganteBtn.Text = "Comprar";
             this.comprarExtraGiganteBtn.UseVisualStyleBackColor = true;
             this.comprarExtraGiganteBtn.Click += new System.EventHandler(this.comprarExtraGiganteBtn_Click);
@@ -64,7 +64,7 @@
             this.comprarGrandeBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comprarGrandeBtn.Name = "comprarGrandeBtn";
             this.comprarGrandeBtn.Size = new System.Drawing.Size(146, 32);
-            this.comprarGrandeBtn.TabIndex = 1;
+            this.comprarGrandeBtn.TabIndex = 5;
             this.comprarGrandeBtn.Text = "Comprar";
             this.comprarGrandeBtn.UseVisualStyleBackColor = true;
             this.comprarGrandeBtn.Click += new System.EventHandler(this.comprarGrandeBtn_Click);
@@ -75,7 +75,7 @@
             this.comprarBrotoBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comprarBrotoBtn.Name = "comprarBrotoBtn";
             this.comprarBrotoBtn.Size = new System.Drawing.Size(146, 32);
-            this.comprarBrotoBtn.TabIndex = 2;
+            this.comprarBrotoBtn.TabIndex = 7;
             this.comprarBrotoBtn.Text = "Comprar";
             this.comprarBrotoBtn.UseVisualStyleBackColor = true;
             this.comprarBrotoBtn.Click += new System.EventHandler(this.comprarBrotoBtn_Click);
@@ -93,11 +93,11 @@
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(713, 313);
+            this.cancelBtn.Location = new System.Drawing.Point(713, 322);
             this.cancelBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(112, 35);
-            this.cancelBtn.TabIndex = 4;
+            this.cancelBtn.TabIndex = 8;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
@@ -189,7 +189,7 @@
             this.extraGigantePrecoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.extraGigantePrecoLabel.Name = "extraGigantePrecoLabel";
             this.extraGigantePrecoLabel.Size = new System.Drawing.Size(83, 20);
-            this.extraGigantePrecoLabel.TabIndex = 17;
+            this.extraGigantePrecoLabel.TabIndex = 0;
             this.extraGigantePrecoLabel.Text = "R$ 120,00";
             // 
             // gigantePrecoLabel
@@ -199,7 +199,7 @@
             this.gigantePrecoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gigantePrecoLabel.Name = "gigantePrecoLabel";
             this.gigantePrecoLabel.Size = new System.Drawing.Size(74, 20);
-            this.gigantePrecoLabel.TabIndex = 18;
+            this.gigantePrecoLabel.TabIndex = 2;
             this.gigantePrecoLabel.Text = "R$ 90,00";
             // 
             // grandePrecoLabel
@@ -209,7 +209,7 @@
             this.grandePrecoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.grandePrecoLabel.Name = "grandePrecoLabel";
             this.grandePrecoLabel.Size = new System.Drawing.Size(70, 20);
-            this.grandePrecoLabel.TabIndex = 19;
+            this.grandePrecoLabel.TabIndex = 4;
             this.grandePrecoLabel.Text = "R$60,00";
             // 
             // brotoPrecoLabel
@@ -219,7 +219,7 @@
             this.brotoPrecoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.brotoPrecoLabel.Name = "brotoPrecoLabel";
             this.brotoPrecoLabel.Size = new System.Drawing.Size(74, 20);
-            this.brotoPrecoLabel.TabIndex = 20;
+            this.brotoPrecoLabel.TabIndex = 6;
             this.brotoPrecoLabel.Text = "R$ 40,00";
             // 
             // TelaTamanhoPizza

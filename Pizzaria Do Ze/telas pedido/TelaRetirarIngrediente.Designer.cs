@@ -53,7 +53,7 @@
             this.comboBoxIngrediente.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxIngrediente.Name = "comboBoxIngrediente";
             this.comboBoxIngrediente.Size = new System.Drawing.Size(248, 28);
-            this.comboBoxIngrediente.TabIndex = 1;
+            this.comboBoxIngrediente.TabIndex = 0;
             // 
             // ingredientesListBox
             // 
@@ -63,7 +63,7 @@
             this.ingredientesListBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ingredientesListBox.Name = "ingredientesListBox";
             this.ingredientesListBox.Size = new System.Drawing.Size(441, 224);
-            this.ingredientesListBox.TabIndex = 2;
+            this.ingredientesListBox.TabIndex = 1;
             // 
             // retirarBtn
             // 
@@ -71,7 +71,7 @@
             this.retirarBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.retirarBtn.Name = "retirarBtn";
             this.retirarBtn.Size = new System.Drawing.Size(171, 35);
-            this.retirarBtn.TabIndex = 3;
+            this.retirarBtn.TabIndex = 2;
             this.retirarBtn.Text = "Retirar Selecionado";
             this.retirarBtn.UseVisualStyleBackColor = true;
             // 
@@ -81,7 +81,7 @@
             this.cancelbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cancelbtn.Name = "cancelbtn";
             this.cancelbtn.Size = new System.Drawing.Size(113, 33);
-            this.cancelbtn.TabIndex = 4;
+            this.cancelbtn.TabIndex = 3;
             this.cancelbtn.Text = "Cancelar";
             this.cancelbtn.UseVisualStyleBackColor = true;
             this.cancelbtn.Click += new System.EventHandler(this.cancelbtn_Click);
@@ -92,7 +92,7 @@
             this.ConcluirBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ConcluirBtn.Name = "ConcluirBtn";
             this.ConcluirBtn.Size = new System.Drawing.Size(108, 33);
-            this.ConcluirBtn.TabIndex = 5;
+            this.ConcluirBtn.TabIndex = 4;
             this.ConcluirBtn.Text = "Concluir";
             this.ConcluirBtn.UseVisualStyleBackColor = true;
             this.ConcluirBtn.Click += new System.EventHandler(this.ConcluirBtn_Click);

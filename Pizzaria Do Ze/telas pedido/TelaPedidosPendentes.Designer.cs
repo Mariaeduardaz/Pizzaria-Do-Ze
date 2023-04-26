@@ -62,7 +62,7 @@
             this.btnFechar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(147, 43);
-            this.btnFechar.TabIndex = 2;
+            this.btnFechar.TabIndex = 3;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.button1_Click);
@@ -73,7 +73,7 @@
             this.labelQuantidadePedidoPendente.Location = new System.Drawing.Point(18, 546);
             this.labelQuantidadePedidoPendente.Name = "labelQuantidadePedidoPendente";
             this.labelQuantidadePedidoPendente.Size = new System.Drawing.Size(205, 20);
-            this.labelQuantidadePedidoPendente.TabIndex = 3;
+            this.labelQuantidadePedidoPendente.TabIndex = 2;
             this.labelQuantidadePedidoPendente.Text = "10 pedidos pendentes hoje.";
             // 
             // labelPedidoPendente

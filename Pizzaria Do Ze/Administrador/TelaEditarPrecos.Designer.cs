@@ -113,7 +113,7 @@
             this.valorGrandeTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.valorGrandeTB.Name = "valorGrandeTB";
             this.valorGrandeTB.Size = new System.Drawing.Size(275, 26);
-            this.valorGrandeTB.TabIndex = 6;
+            this.valorGrandeTB.TabIndex = 0;
             // 
             // valorGiganteTB
             // 
@@ -121,7 +121,7 @@
             this.valorGiganteTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.valorGiganteTB.Name = "valorGiganteTB";
             this.valorGiganteTB.Size = new System.Drawing.Size(233, 26);
-            this.valorGiganteTB.TabIndex = 7;
+            this.valorGiganteTB.TabIndex = 1;
             // 
             // valorExtraGiganteTB
             // 
@@ -129,7 +129,7 @@
             this.valorExtraGiganteTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.valorExtraGiganteTB.Name = "valorExtraGiganteTB";
             this.valorExtraGiganteTB.Size = new System.Drawing.Size(272, 26);
-            this.valorExtraGiganteTB.TabIndex = 8;
+            this.valorExtraGiganteTB.TabIndex = 2;
             // 
             // valorEspeciaisTB
             // 
@@ -137,7 +137,7 @@
             this.valorEspeciaisTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.valorEspeciaisTB.Name = "valorEspeciaisTB";
             this.valorEspeciaisTB.Size = new System.Drawing.Size(275, 26);
-            this.valorEspeciaisTB.TabIndex = 9;
+            this.valorEspeciaisTB.TabIndex = 4;
             // 
             // btnAtualizar
             // 
@@ -145,7 +145,7 @@
             this.btnAtualizar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAtualizar.Name = "btnAtualizar";
             this.btnAtualizar.Size = new System.Drawing.Size(108, 40);
-            this.btnAtualizar.TabIndex = 10;
+            this.btnAtualizar.TabIndex = 7;
             this.btnAtualizar.Text = "Atualizar ";
             this.btnAtualizar.UseVisualStyleBackColor = true;
             this.btnAtualizar.Click += new System.EventHandler(this.Atualizar_Click);
@@ -156,7 +156,7 @@
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(103, 40);
-            this.btnCancelar.TabIndex = 11;
+            this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.cancelBtn_Click);

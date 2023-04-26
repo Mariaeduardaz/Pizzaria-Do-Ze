@@ -21,6 +21,19 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             InitializeComponent();
             addBtn.Focus();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+
+            addBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            addBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            editBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            editBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnVerificar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnVerificar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            excluirBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            excluirBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            
         }
 
         private void voltarBtn_Click(object sender, EventArgs e)

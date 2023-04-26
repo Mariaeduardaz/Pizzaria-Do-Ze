@@ -22,6 +22,14 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
             InitializeComponent();
             ListBoxPedidoPendente.Focus();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+
+            abrirPedidoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            abrirPedidoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            labelQuantidadePedidoPendente.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            labelQuantidadePedidoPendente.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            btnFechar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            btnFechar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
         }
 
         private void abrirPedidoBtn_Click(object sender, EventArgs e)
