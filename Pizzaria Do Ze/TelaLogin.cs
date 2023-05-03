@@ -108,5 +108,38 @@ namespace Pizzaria_Do_Ze
         {
 
         }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Show();
+            WindowState = FormWindowState.Normal;
+            notifyIcon1.Visible = false;
+        }
+
+        private void TelaLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            TelaDeSair sairdaTela = new TelaDeSair();
+            DialogResult result = sairdaTela.ShowDialog();
+
+            if (result == DialogResult.Yes)
+            { 
+             e.Cancel= true;
+                this.WindowState = FormWindowState.Minimized;
+                notifyIcon1.ShowBalloonTip(2000);
+                
+            }
+            else if (result == DialogResult.OK) 
+            {
+                
+            }
+
+            else if (result == DialogResult.Cancel)
+            {
+                e.Cancel = true;
+            }
+
+
+
+        }
     }
 }

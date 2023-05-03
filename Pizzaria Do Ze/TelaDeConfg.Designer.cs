@@ -46,6 +46,7 @@
             this.comboBoxIdioma.Name = "comboBoxIdioma";
             this.comboBoxIdioma.Size = new System.Drawing.Size(132, 28);
             this.comboBoxIdioma.TabIndex = 0;
+            this.comboBoxIdioma.SelectedIndexChanged += new System.EventHandler(this.comboBoxIdioma_SelectedIndexChanged);
             // 
             // LabelIdioma
             // 

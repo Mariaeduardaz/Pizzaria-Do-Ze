@@ -210,8 +210,14 @@
   <data name="btnIngrendiente.Text" xml:space="preserve">
     <value>Ingredientes</value>
   </data>
+  <data name="btnJogarBandeja.Text" xml:space="preserve">
+    <value>Jugar en la bandeja</value>
+  </data>
   <data name="btnPizza.Text" xml:space="preserve">
     <value>Pizza</value>
+  </data>
+  <data name="btnSair.Text" xml:space="preserve">
+    <value>Salir </value>
   </data>
   <data name="btnVerificar.Text" xml:space="preserve">
     <value>Verificar</value>
@@ -404,6 +410,9 @@
   </data>
   <data name="labelSabores.Text" xml:space="preserve">
     <value>Sabores</value>
+  </data>
+  <data name="labelsairaplicacao.Text" xml:space="preserve">
+    <value>Desea sair de la aplicacion</value>
   </data>
   <data name="labelSenha.Text" xml:space="preserve">
     <value>Contraseña</value>

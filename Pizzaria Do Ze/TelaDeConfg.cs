@@ -52,5 +52,10 @@ namespace Pizzaria_Do_Ze
                 Environment.Exit(0);
             }
         }
+
+        private void comboBoxIdioma_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

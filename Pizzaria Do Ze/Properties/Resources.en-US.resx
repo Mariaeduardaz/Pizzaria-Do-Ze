@@ -213,8 +213,14 @@
   <data name="btnIngrendiente.Text" xml:space="preserve">
     <value>Ingredients</value>
   </data>
+  <data name="btnJogarBandeja.Text" xml:space="preserve">
+    <value>Play on the tray</value>
+  </data>
   <data name="btnPizza.Text" xml:space="preserve">
     <value>Pizza</value>
+  </data>
+  <data name="btnSair.Text" xml:space="preserve">
+    <value>To leave </value>
   </data>
   <data name="btnVerificar.Text" xml:space="preserve">
     <value>To check</value>
@@ -407,6 +413,9 @@
   </data>
   <data name="labelSabores.Text" xml:space="preserve">
     <value>Flavors</value>
+  </data>
+  <data name="labelsairaplicacao.Text" xml:space="preserve">
+    <value>To leave application</value>
   </data>
   <data name="labelSenha.Text" xml:space="preserve">
     <value>Password</value>
