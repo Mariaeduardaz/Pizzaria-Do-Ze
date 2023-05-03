@@ -39,7 +39,7 @@
             this.btnentrar = new System.Windows.Forms.Button();
             this.btnIdioma = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.abrirAplicaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirAplicacaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.encerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
@@ -138,29 +138,31 @@
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.abrirAplicaçãoToolStripMenuItem,
+            this.abrirAplicacaoToolStripMenuItem,
             this.encerrarToolStripMenuItem,
             this.sobreToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(202, 100);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(241, 133);
             // 
-            // abrirAplicaçãoToolStripMenuItem
+            // abrirAplicacaoToolStripMenuItem
             // 
-            this.abrirAplicaçãoToolStripMenuItem.Name = "abrirAplicaçãoToolStripMenuItem";
-            this.abrirAplicaçãoToolStripMenuItem.Size = new System.Drawing.Size(201, 32);
-            this.abrirAplicaçãoToolStripMenuItem.Text = "Abrir aplicação";
+            this.abrirAplicacaoToolStripMenuItem.Name = "abrirAplicacaoToolStripMenuItem";
+            this.abrirAplicacaoToolStripMenuItem.Size = new System.Drawing.Size(240, 32);
+            this.abrirAplicacaoToolStripMenuItem.Text = "Abrir aplicação";
+            this.abrirAplicacaoToolStripMenuItem.Click += new System.EventHandler(this.abrirAplicacaoToolStripMenuItem_Click);
             // 
             // encerrarToolStripMenuItem
             // 
             this.encerrarToolStripMenuItem.Name = "encerrarToolStripMenuItem";
-            this.encerrarToolStripMenuItem.Size = new System.Drawing.Size(201, 32);
+            this.encerrarToolStripMenuItem.Size = new System.Drawing.Size(240, 32);
             this.encerrarToolStripMenuItem.Text = "Encerrar";
             // 
             // sobreToolStripMenuItem
             // 
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(201, 32);
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(240, 32);
             this.sobreToolStripMenuItem.Text = "Sobre";
+            this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
             // 
             // notifyIcon1
             // 
@@ -168,6 +170,7 @@
             this.notifyIcon1.BalloonTipText = "Aplicacao continua executando na bandeja";
             this.notifyIcon1.BalloonTipTitle = "Pizzaria do zé";
             this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "notifyIconSystemTray";
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
@@ -199,6 +202,7 @@
             this.Controls.Add(this.labelusuario);
             this.Controls.Add(this.labelinicio);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -225,7 +229,7 @@
         private System.Windows.Forms.Button btnentrar;
         private System.Windows.Forms.Button btnIdioma;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem abrirAplicaçãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirAplicacaoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem encerrarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
         private System.Windows.Forms.NotifyIcon notifyIcon1;

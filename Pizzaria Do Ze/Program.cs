@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
+using System.Data.Common;
 
 namespace Pizzaria_Do_Ze
 {
@@ -17,7 +18,8 @@ namespace Pizzaria_Do_Ze
         [STAThread]
         static void Main()
         {
-
+           // DbProviderFactories.RegisterFactory("System.Data.SqlClient", System.Data.SqlClient.SqlClientFactory.Instance);
+          //  DbProviderFactories.RegisterFactory("MySql.Data.MySqlClient", MySql.Data.MySqlClient.MySqlClientFactory.Instance);
 
             string auxIdiomaRegiao = ConfigurationManager.AppSettings.Get("IdiomaRegiao");
             Thread.CurrentThread.CurrentUICulture = new CultureInfo(auxIdiomaRegiao);

@@ -47,6 +47,13 @@ namespace Pizzaria_Do_Ze
             BtnCadastroBebida.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             btnVoltar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             btnVoltar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            pizzaToolStripMenuItem.Click += new EventHandler(pizzaBtn_Click);
+            bebidaToolStripMenuItem.Click += new EventHandler(bntBebida_Click);
+            fornecedorToolStripMenuItem.Click += new EventHandler(BtnFornecedor_Click);
+            funcionarioToolStripMenuItem.Click += new EventHandler(cadastroFuncionarioBtn_Click);
+            pedidoToolStripMenuItem.Click += new EventHandler(pedidoBtn_Click);
+            sairToolStripMenuItem.Click += new EventHandler(voltarBtn_Click);
+
         }
 
         

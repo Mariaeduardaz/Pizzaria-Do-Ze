@@ -22,7 +22,7 @@ namespace Pizzaria_Do_Ze
             UserTextBox.Focus();
             Funcoes.AjustaResourcesControl(this);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
-            notifyIcon1.ShowBalloonTip(1000);
+            
 
             btnIdioma.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             btnIdioma.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -34,9 +34,9 @@ namespace Pizzaria_Do_Ze
             cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             btnentrar.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             btnentrar.Leave += new EventHandler(Funcoes.CampoEventoLeave);
-            abrirAplicaçãoToolStripMenuItem.Click += new EventHandler(Funcoes.CampoEventoEnter);
-            encerrarToolStripMenuItem.Click += new EventHandler(Funcoes.CampoEventoEnter);
-            sobreToolStripMenuItem.Click += new EventHandler(Funcoes.CampoEventoEnter);
+            abrirAplicacaoToolStripMenuItem.Click += new EventHandler(abrirAplicacaoToolStripMenuItem_Click);
+            encerrarToolStripMenuItem.Click += new EventHandler(cancelBtn_Click);
+            sobreToolStripMenuItem.Click += new EventHandler(sobreToolStripMenuItem_Click);
          
 
 
@@ -139,6 +139,16 @@ namespace Pizzaria_Do_Ze
             }
 
 
+
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void abrirAplicacaoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
         }
     }

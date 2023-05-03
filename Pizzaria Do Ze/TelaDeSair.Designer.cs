@@ -47,7 +47,7 @@
             // btnJogarBandeja
             // 
             this.btnJogarBandeja.DialogResult = System.Windows.Forms.DialogResult.Yes;
-            this.btnJogarBandeja.Location = new System.Drawing.Point(258, 50);
+            this.btnJogarBandeja.Location = new System.Drawing.Point(283, 50);
             this.btnJogarBandeja.Name = "btnJogarBandeja";
             this.btnJogarBandeja.Size = new System.Drawing.Size(186, 31);
             this.btnJogarBandeja.TabIndex = 1;

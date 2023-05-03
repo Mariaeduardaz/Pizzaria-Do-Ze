@@ -16,6 +16,7 @@ namespace Pizzaria_Do_Ze
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
 
 
             labelsairaplicacao.Enter += new EventHandler(Funcoes.CampoEventoEnter);
