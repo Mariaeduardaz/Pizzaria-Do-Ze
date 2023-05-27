@@ -90,43 +90,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administrador\CadFornecedor.cs">
+    <Compile Include="Teste\Administrador\CadastrarIngrediente.cs" />
+    <Compile Include="Teste\Administrador\CadastrarIngrediente.Designer.cs">
+      <DependentUpon>CadastrarIngrediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teste\Administrador\CadFornecedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\CadFornecedor.Designer.cs">
+    <Compile Include="Teste\Administrador\CadFornecedor.Designer.cs">
       <DependentUpon>CadFornecedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\cadFuncionario.cs">
+    <Compile Include="Teste\Administrador\cadFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\cadFuncionario.Designer.cs">
+    <Compile Include="Teste\Administrador\cadFuncionario.Designer.cs">
       <DependentUpon>cadFuncionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\CadGenerico.cs">
+    <Compile Include="Teste\Administrador\CadGenerico.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Administrador\CadGenerico.Designer.cs">
+    <Compile Include="Teste\Administrador\CadGenerico.Designer.cs">
       <DependentUpon>CadGenerico.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\UserControl1.cs">
+    <Compile Include="Teste\Administrador\UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Administrador\UserControl1.Designer.cs">
+    <Compile Include="Teste\Administrador\UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\UserControl2.cs">
+    <Compile Include="Teste\Administrador\UserControl2.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Administrador\UserControl2.Designer.cs">
+    <Compile Include="Teste\Administrador\UserControl2.Designer.cs">
       <DependentUpon>UserControl2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cad.cs">
+    <Compile Include="Teste\Cad.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Cad.Designer.cs">
+    <Compile Include="Teste\Cad.Designer.cs">
       <DependentUpon>Cad.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funcoes.cs" />
+    <Compile Include="Teste\Funcoes.cs" />
     <Compile Include="Properties\Resources.es.Designer.cs">
       <DependentUpon>Resources.es.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -137,174 +141,177 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.en-US.resx</DependentUpon>
     </Compile>
-    <Compile Include="TelaDeConfg.cs">
+    <Compile Include="Teste\TelaDeConfg.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaDeConfg.Designer.cs">
+    <Compile Include="Teste\TelaDeConfg.Designer.cs">
       <DependentUpon>TelaDeConfg.cs</DependentUpon>
     </Compile>
-    <Compile Include="TelaDeSair.cs">
+    <Compile Include="Teste\TelaDeSair.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaDeSair.Designer.cs">
+    <Compile Include="Teste\TelaDeSair.Designer.cs">
       <DependentUpon>TelaDeSair.cs</DependentUpon>
     </Compile>
-    <Compile Include="TelaLogin.cs">
+    <Compile Include="Teste\TelaLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaLogin.Designer.cs">
+    <Compile Include="Teste\TelaLogin.Designer.cs">
       <DependentUpon>TelaLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Teste\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Administrador\CadBordas.cs">
+    <Compile Include="Teste\Administrador\CadBordas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\CadBordas.Designer.cs">
+    <Compile Include="Teste\Administrador\CadBordas.Designer.cs">
       <DependentUpon>CadBordas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\CadBebidas.cs">
+    <Compile Include="Teste\Administrador\CadBebidas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\CadBebidas.Designer.cs">
+    <Compile Include="Teste\Administrador\CadBebidas.Designer.cs">
       <DependentUpon>CadBebidas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\TelaEditarBorda.cs">
+    <Compile Include="Teste\Administrador\TelaEditarBorda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\TelaEditarBorda.Designer.cs">
+    <Compile Include="Teste\Administrador\TelaEditarBorda.Designer.cs">
       <DependentUpon>TelaEditarBorda.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\TelaEditarPrecos.cs">
+    <Compile Include="Teste\Administrador\TelaEditarPrecos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\TelaEditarPrecos.Designer.cs">
+    <Compile Include="Teste\Administrador\TelaEditarPrecos.Designer.cs">
       <DependentUpon>TelaEditarPrecos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\TelaEditSabores.cs">
+    <Compile Include="Teste\Administrador\TelaEditSabores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\TelaEditSabores.Designer.cs">
+    <Compile Include="Teste\Administrador\TelaEditSabores.Designer.cs">
       <DependentUpon>TelaEditSabores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\TelaPizzaAdmin.cs">
+    <Compile Include="Teste\Administrador\TelaPizzaAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\TelaPizzaAdmin.Designer.cs">
+    <Compile Include="Teste\Administrador\TelaPizzaAdmin.Designer.cs">
       <DependentUpon>TelaPizzaAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\TelaSabores.cs">
+    <Compile Include="Teste\Administrador\TelaSabores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\TelaSabores.Designer.cs">
+    <Compile Include="Teste\Administrador\TelaSabores.Designer.cs">
       <DependentUpon>TelaSabores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Principal\Telaprincipal.cs">
+    <Compile Include="Teste\Principal\Telaprincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal\Telaprincipal.Designer.cs">
+    <Compile Include="Teste\Principal\Telaprincipal.Designer.cs">
       <DependentUpon>Telaprincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas pedido\TelaPedidoSelecionado.cs">
+    <Compile Include="Teste\telas pedido\TelaPedidoSelecionado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas pedido\TelaPedidoSelecionado.Designer.cs">
+    <Compile Include="Teste\telas pedido\TelaPedidoSelecionado.Designer.cs">
       <DependentUpon>TelaPedidoSelecionado.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas pedido\TelaPedidosPendentes.cs">
+    <Compile Include="Teste\telas pedido\TelaPedidosPendentes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas pedido\TelaPedidosPendentes.Designer.cs">
+    <Compile Include="Teste\telas pedido\TelaPedidosPendentes.Designer.cs">
       <DependentUpon>TelaPedidosPendentes.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas pedido\TelaAcessarStatusPedidoAtendente.cs">
+    <Compile Include="Teste\telas pedido\TelaAcessarStatusPedidoAtendente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas pedido\TelaAcessarStatusPedidoAtendente.Designer.cs">
+    <Compile Include="Teste\telas pedido\TelaAcessarStatusPedidoAtendente.Designer.cs">
       <DependentUpon>TelaAcessarStatusPedidoAtendente.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas pedido\TelaCadastroCliente.cs">
+    <Compile Include="Teste\telas pedido\TelaCadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas pedido\TelaCadastroCliente.Designer.cs">
+    <Compile Include="Teste\telas pedido\TelaCadastroCliente.Designer.cs">
       <DependentUpon>TelaCadastroCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas pedido\TelaPedidoCliente.cs">
+    <Compile Include="Teste\telas pedido\TelaPedidoCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas pedido\TelaPedidoCliente.Designer.cs">
+    <Compile Include="Teste\telas pedido\TelaPedidoCliente.Designer.cs">
       <DependentUpon>TelaPedidoCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas pedido\TelaPedidoFinal.cs">
+    <Compile Include="Teste\telas pedido\TelaPedidoFinal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas pedido\TelaPedidoFinal.Designer.cs">
+    <Compile Include="Teste\telas pedido\TelaPedidoFinal.Designer.cs">
       <DependentUpon>TelaPedidoFinal.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas pedido\TelaPedidosEntregues.cs">
+    <Compile Include="Teste\telas pedido\TelaPedidosEntregues.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas pedido\TelaPedidosEntregues.Designer.cs">
+    <Compile Include="Teste\telas pedido\TelaPedidosEntregues.Designer.cs">
       <DependentUpon>TelaPedidosEntregues.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas pedido\TelaRetirarIngrediente.cs">
+    <Compile Include="Teste\telas pedido\TelaRetirarIngrediente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas pedido\TelaRetirarIngrediente.Designer.cs">
+    <Compile Include="Teste\telas pedido\TelaRetirarIngrediente.Designer.cs">
       <DependentUpon>TelaRetirarIngrediente.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas pedido\TelaStatusPedidoAtendente.cs">
+    <Compile Include="Teste\telas pedido\TelaStatusPedidoAtendente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas pedido\TelaStatusPedidoAtendente.Designer.cs">
+    <Compile Include="Teste\telas pedido\TelaStatusPedidoAtendente.Designer.cs">
       <DependentUpon>TelaStatusPedidoAtendente.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas pedido\TelaTamanhoPizza.cs">
+    <Compile Include="Teste\telas pedido\TelaTamanhoPizza.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas pedido\TelaTamanhoPizza.Designer.cs">
+    <Compile Include="Teste\telas pedido\TelaTamanhoPizza.Designer.cs">
       <DependentUpon>TelaTamanhoPizza.cs</DependentUpon>
     </Compile>
-    <Compile Include="Principal\TelaPrincipalAdmin.cs">
+    <Compile Include="Teste\Principal\TelaPrincipalAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal\TelaPrincipalAdmin.Designer.cs">
+    <Compile Include="Teste\Principal\TelaPrincipalAdmin.Designer.cs">
       <DependentUpon>TelaPrincipalAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Principal\TelaPrincipalAtendente.cs">
+    <Compile Include="Teste\Principal\TelaPrincipalAtendente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal\TelaPrincipalAtendente.Designer.cs">
+    <Compile Include="Teste\Principal\TelaPrincipalAtendente.Designer.cs">
       <DependentUpon>TelaPrincipalAtendente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Principal\TelaPrincipalEntregador.cs">
+    <Compile Include="Teste\Principal\TelaPrincipalEntregador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal\TelaPrincipalEntregador.Designer.cs">
+    <Compile Include="Teste\Principal\TelaPrincipalEntregador.Designer.cs">
       <DependentUpon>TelaPrincipalEntregador.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControlOperacoes.cs">
+    <Compile Include="Teste\UserControlOperacoes.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControlOperacoes.Designer.cs">
+    <Compile Include="Teste\UserControlOperacoes.Designer.cs">
       <DependentUpon>UserControlOperacoes.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Administrador\TelaEditarBorda.resx">
+    <EmbeddedResource Include="Teste\Administrador\CadastrarIngrediente.resx">
+      <DependentUpon>CadastrarIngrediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teste\Administrador\TelaEditarBorda.resx">
       <DependentUpon>TelaEditarBorda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\CadFornecedor.resx">
+    <EmbeddedResource Include="Teste\Administrador\CadFornecedor.resx">
       <DependentUpon>CadFornecedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\cadFuncionario.resx">
+    <EmbeddedResource Include="Teste\Administrador\cadFuncionario.resx">
       <DependentUpon>cadFuncionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\CadGenerico.resx">
+    <EmbeddedResource Include="Teste\Administrador\CadGenerico.resx">
       <DependentUpon>CadGenerico.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\UserControl1.resx">
+    <EmbeddedResource Include="Teste\Administrador\UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\UserControl2.resx">
+    <EmbeddedResource Include="Teste\Administrador\UserControl2.resx">
       <DependentUpon>UserControl2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.es.resx">
@@ -315,13 +322,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.en-US.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="TelaDeConfg.resx">
+    <EmbeddedResource Include="Teste\TelaDeConfg.resx">
       <DependentUpon>TelaDeConfg.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TelaDeSair.resx">
+    <EmbeddedResource Include="Teste\TelaDeSair.resx">
       <DependentUpon>TelaDeSair.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TelaLogin.resx">
+    <EmbeddedResource Include="Teste\TelaLogin.resx">
       <DependentUpon>TelaLogin.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -334,67 +341,67 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Administrador\CadBordas.resx">
+    <EmbeddedResource Include="Teste\Administrador\CadBordas.resx">
       <DependentUpon>CadBordas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\CadBebidas.resx">
+    <EmbeddedResource Include="Teste\Administrador\CadBebidas.resx">
       <DependentUpon>CadBebidas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\TelaEditarPrecos.resx">
+    <EmbeddedResource Include="Teste\Administrador\TelaEditarPrecos.resx">
       <DependentUpon>TelaEditarPrecos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\TelaEditSabores.resx">
+    <EmbeddedResource Include="Teste\Administrador\TelaEditSabores.resx">
       <DependentUpon>TelaEditSabores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\TelaPizzaAdmin.resx">
+    <EmbeddedResource Include="Teste\Administrador\TelaPizzaAdmin.resx">
       <DependentUpon>TelaPizzaAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\TelaSabores.resx">
+    <EmbeddedResource Include="Teste\Administrador\TelaSabores.resx">
       <DependentUpon>TelaSabores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal\Telaprincipal.resx">
+    <EmbeddedResource Include="Teste\Principal\Telaprincipal.resx">
       <DependentUpon>Telaprincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas pedido\TelaPedidoSelecionado.resx">
+    <EmbeddedResource Include="Teste\telas pedido\TelaPedidoSelecionado.resx">
       <DependentUpon>TelaPedidoSelecionado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas pedido\TelaPedidosEntregues.resx">
+    <EmbeddedResource Include="Teste\telas pedido\TelaPedidosEntregues.resx">
       <DependentUpon>TelaPedidosEntregues.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas pedido\TelaPedidosPendentes.resx">
+    <EmbeddedResource Include="Teste\telas pedido\TelaPedidosPendentes.resx">
       <DependentUpon>TelaPedidosPendentes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas pedido\TelaAcessarStatusPedidoAtendente.resx">
+    <EmbeddedResource Include="Teste\telas pedido\TelaAcessarStatusPedidoAtendente.resx">
       <DependentUpon>TelaAcessarStatusPedidoAtendente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas pedido\TelaCadastroCliente.resx">
+    <EmbeddedResource Include="Teste\telas pedido\TelaCadastroCliente.resx">
       <DependentUpon>TelaCadastroCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas pedido\TelaPedidoCliente.resx">
+    <EmbeddedResource Include="Teste\telas pedido\TelaPedidoCliente.resx">
       <DependentUpon>TelaPedidoCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas pedido\TelaPedidoFinal.resx">
+    <EmbeddedResource Include="Teste\telas pedido\TelaPedidoFinal.resx">
       <DependentUpon>TelaPedidoFinal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas pedido\TelaRetirarIngrediente.resx">
+    <EmbeddedResource Include="Teste\telas pedido\TelaRetirarIngrediente.resx">
       <DependentUpon>TelaRetirarIngrediente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas pedido\TelaStatusPedidoAtendente.resx">
+    <EmbeddedResource Include="Teste\telas pedido\TelaStatusPedidoAtendente.resx">
       <DependentUpon>TelaStatusPedidoAtendente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas pedido\TelaTamanhoPizza.resx">
+    <EmbeddedResource Include="Teste\telas pedido\TelaTamanhoPizza.resx">
       <DependentUpon>TelaTamanhoPizza.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal\TelaPrincipalAdmin.resx">
+    <EmbeddedResource Include="Teste\Principal\TelaPrincipalAdmin.resx">
       <DependentUpon>TelaPrincipalAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal\TelaPrincipalAtendente.resx">
+    <EmbeddedResource Include="Teste\Principal\TelaPrincipalAtendente.resx">
       <DependentUpon>TelaPrincipalAtendente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal\TelaPrincipalEntregador.resx">
+    <EmbeddedResource Include="Teste\Principal\TelaPrincipalEntregador.resx">
       <DependentUpon>TelaPrincipalEntregador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControlOperacoes.resx">
+    <EmbeddedResource Include="Teste\UserControlOperacoes.resx">
       <DependentUpon>UserControlOperacoes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

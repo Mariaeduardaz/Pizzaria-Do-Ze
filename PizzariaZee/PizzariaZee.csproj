@@ -1,0 +1,110 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.33" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PizzariaDoZeDao\PizzariaDoZe.Dao.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="CadastrarIngrediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CadBebidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CadBordas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CadFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="cadFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaAcessarStatusPedidoAtendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaCadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaDeConfg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaDeSair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaEditarBorda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaEditarPrecos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaEditSabores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaPedidoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaPedidoFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaPedidoSelecionado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaPedidosEntregues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaPedidosPendentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaPizzaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telaprincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaPrincipalAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaPrincipalAtendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaPrincipalEntregador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaRetirarIngrediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaSabores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaStatusPedidoAtendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaTamanhoPizza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="TelaLogin.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
