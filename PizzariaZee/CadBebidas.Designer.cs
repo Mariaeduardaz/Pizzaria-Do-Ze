@@ -28,191 +28,180 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LabelTipo = new System.Windows.Forms.Label();
-            this.labelNome = new System.Windows.Forms.Label();
-            this.LabelTamanho = new System.Windows.Forms.Label();
-            this.LabelValor = new System.Windows.Forms.Label();
-            this.tipoTB = new System.Windows.Forms.TextBox();
-            this.nomeTB = new System.Windows.Forms.TextBox();
-            this.tamanhoTB = new System.Windows.Forms.TextBox();
-            this.valorTB = new System.Windows.Forms.TextBox();
-            this.bebidasListBox = new System.Windows.Forms.ListBox();
-            this.btnCadastrar = new System.Windows.Forms.Button();
-            this.btnExcluir = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.labelbebidas = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            buttonVisualizarCadastro = new Button();
+            buttonVoltar = new Button();
+            buttonSalvar = new Button();
+            label1 = new Label();
+            labelML = new Label();
+            listBoxTipo = new ListBox();
+            listBoxML = new ListBox();
+            textBoxNome = new TextBox();
+            labelNome = new Label();
+            textBoxSabor = new TextBox();
+            id_sabor = new Label();
+            textBoxValor = new TextBox();
+            labelValor = new Label();
+            SuspendLayout();
             // 
-            // LabelTipo
+            // buttonVisualizarCadastro
             // 
-            this.LabelTipo.AutoSize = true;
-            this.LabelTipo.Location = new System.Drawing.Point(189, 82);
-            this.LabelTipo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.LabelTipo.Name = "LabelTipo";
-            this.LabelTipo.Size = new System.Drawing.Size(47, 20);
-            this.LabelTipo.TabIndex = 0;
-            this.LabelTipo.Text = "Tipo: ";
+            buttonVisualizarCadastro.Location = new Point(45, 481);
+            buttonVisualizarCadastro.Name = "buttonVisualizarCadastro";
+            buttonVisualizarCadastro.Size = new Size(133, 64);
+            buttonVisualizarCadastro.TabIndex = 29;
+            buttonVisualizarCadastro.Text = "Visualizar Bebidas";
+            buttonVisualizarCadastro.UseVisualStyleBackColor = true;
+            buttonVisualizarCadastro.Click += buttonVisualizarCadastro_Click;
+            // 
+            // buttonVoltar
+            // 
+            buttonVoltar.Location = new Point(408, 511);
+            buttonVoltar.Name = "buttonVoltar";
+            buttonVoltar.Size = new Size(112, 34);
+            buttonVoltar.TabIndex = 28;
+            buttonVoltar.Text = "Voltar";
+            buttonVoltar.UseVisualStyleBackColor = true;
+            // 
+            // buttonSalvar
+            // 
+            buttonSalvar.Location = new Point(290, 511);
+            buttonSalvar.Name = "buttonSalvar";
+            buttonSalvar.Size = new Size(112, 34);
+            buttonSalvar.TabIndex = 27;
+            buttonSalvar.Text = "Salvar";
+            buttonSalvar.UseVisualStyleBackColor = true;
+            buttonSalvar.Click += buttonSalvar_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(305, 184);
+            label1.Name = "label1";
+            label1.Size = new Size(51, 25);
+            label1.TabIndex = 24;
+            label1.Text = "Tipo:";
+            // 
+            // labelML
+            // 
+            labelML.AutoSize = true;
+            labelML.Location = new Point(86, 184);
+            labelML.Name = "labelML";
+            labelML.Size = new Size(40, 25);
+            labelML.TabIndex = 23;
+            labelML.Text = "ML:";
+            // 
+            // listBoxTipo
+            // 
+            listBoxTipo.FormattingEnabled = true;
+            listBoxTipo.ItemHeight = 25;
+            listBoxTipo.Location = new Point(278, 212);
+            listBoxTipo.Name = "listBoxTipo";
+            listBoxTipo.Size = new Size(180, 254);
+            listBoxTipo.TabIndex = 21;
+            // 
+            // listBoxML
+            // 
+            listBoxML.FormattingEnabled = true;
+            listBoxML.ItemHeight = 25;
+            listBoxML.Items.AddRange(new object[] { "150", "300", "600", "1000", "1500", "2000" });
+            listBoxML.Location = new Point(45, 212);
+            listBoxML.Name = "listBoxML";
+            listBoxML.Size = new Size(180, 254);
+            listBoxML.TabIndex = 19;
+            // 
+            // textBoxNome
+            // 
+            textBoxNome.Location = new Point(88, 88);
+            textBoxNome.Name = "textBoxNome";
+            textBoxNome.Size = new Size(297, 31);
+            textBoxNome.TabIndex = 18;
             // 
             // labelNome
             // 
-            this.labelNome.AutoSize = true;
-            this.labelNome.Location = new System.Drawing.Point(177, 33);
-            this.labelNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelNome.Name = "labelNome";
-            this.labelNome.Size = new System.Drawing.Size(59, 20);
-            this.labelNome.TabIndex = 1;
-            this.labelNome.Text = "Nome: ";
+            labelNome.AutoSize = true;
+            labelNome.Location = new Point(17, 94);
+            labelNome.Name = "labelNome";
+            labelNome.Size = new Size(65, 25);
+            labelNome.TabIndex = 17;
+            labelNome.Text = "Nome:";
             // 
-            // LabelTamanho
+            // textBoxSabor
             // 
-            this.LabelTamanho.AutoSize = true;
-            this.LabelTamanho.Location = new System.Drawing.Point(156, 132);
-            this.LabelTamanho.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.LabelTamanho.Name = "LabelTamanho";
-            this.LabelTamanho.Size = new System.Drawing.Size(80, 20);
-            this.LabelTamanho.TabIndex = 2;
-            this.LabelTamanho.Text = "Tamanho:";
+            textBoxSabor.Location = new Point(88, 28);
+            textBoxSabor.Name = "textBoxSabor";
+            textBoxSabor.Size = new Size(150, 31);
+            textBoxSabor.TabIndex = 16;
             // 
-            // LabelValor
+            // id_sabor
             // 
-            this.LabelValor.AutoSize = true;
-            this.LabelValor.Location = new System.Drawing.Point(182, 182);
-            this.LabelValor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.LabelValor.Name = "LabelValor";
-            this.LabelValor.Size = new System.Drawing.Size(54, 20);
-            this.LabelValor.TabIndex = 3;
-            this.LabelValor.Text = "Valor: ";
-            this.LabelValor.Click += new System.EventHandler(this.label4_Click);
+            id_sabor.AutoSize = true;
+            id_sabor.Location = new Point(44, 31);
+            id_sabor.Name = "id_sabor";
+            id_sabor.Size = new Size(27, 25);
+            id_sabor.TabIndex = 15;
+            id_sabor.Text = "id";
             // 
-            // tipoTB
+            // textBoxValor
             // 
-            this.tipoTB.Location = new System.Drawing.Point(254, 76);
-            this.tipoTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tipoTB.Name = "tipoTB";
-            this.tipoTB.Size = new System.Drawing.Size(148, 26);
-            this.tipoTB.TabIndex = 2;
+            textBoxValor.Location = new Point(86, 137);
+            textBoxValor.Name = "textBoxValor";
+            textBoxValor.Size = new Size(297, 31);
+            textBoxValor.TabIndex = 30;
             // 
-            // nomeTB
+            // labelValor
             // 
-            this.nomeTB.Location = new System.Drawing.Point(254, 33);
-            this.nomeTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.nomeTB.Name = "nomeTB";
-            this.nomeTB.Size = new System.Drawing.Size(148, 26);
-            this.nomeTB.TabIndex = 1;
-            // 
-            // tamanhoTB
-            // 
-            this.tamanhoTB.Location = new System.Drawing.Point(254, 126);
-            this.tamanhoTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tamanhoTB.Name = "tamanhoTB";
-            this.tamanhoTB.Size = new System.Drawing.Size(148, 26);
-            this.tamanhoTB.TabIndex = 3;
-            // 
-            // valorTB
-            // 
-            this.valorTB.Location = new System.Drawing.Point(254, 179);
-            this.valorTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.valorTB.Name = "valorTB";
-            this.valorTB.Size = new System.Drawing.Size(148, 26);
-            this.valorTB.TabIndex = 4;
-            // 
-            // bebidasListBox
-            // 
-            this.bebidasListBox.FormattingEnabled = true;
-            this.bebidasListBox.ItemHeight = 20;
-            this.bebidasListBox.Location = new System.Drawing.Point(101, 246);
-            this.bebidasListBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.bebidasListBox.Name = "bebidasListBox";
-            this.bebidasListBox.Size = new System.Drawing.Size(456, 164);
-            this.bebidasListBox.TabIndex = 5;
-            // 
-            // btnCadastrar
-            // 
-            this.btnCadastrar.Location = new System.Drawing.Point(512, 438);
-            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(115, 36);
-            this.btnCadastrar.TabIndex = 8;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            this.btnCadastrar.Click += new System.EventHandler(this.cadastrarBtn_Click);
-            // 
-            // btnExcluir
-            // 
-            this.btnExcluir.Location = new System.Drawing.Point(385, 376);
-            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(172, 34);
-            this.btnExcluir.TabIndex = 6;
-            this.btnExcluir.Text = "Excluir ";
-            this.btnExcluir.UseVisualStyleBackColor = true;
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.Location = new System.Drawing.Point(399, 437);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(105, 36);
-            this.btnCancelar.TabIndex = 7;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            // 
-            // labelbebidas
-            // 
-            this.labelbebidas.AutoSize = true;
-            this.labelbebidas.Location = new System.Drawing.Point(70, 221);
-            this.labelbebidas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelbebidas.Name = "labelbebidas";
-            this.labelbebidas.Size = new System.Drawing.Size(166, 20);
-            this.labelbebidas.TabIndex = 12;
-            this.labelbebidas.Text = "Bebidas Cadastradas:";
+            labelValor.AutoSize = true;
+            labelValor.Location = new Point(15, 140);
+            labelValor.Name = "labelValor";
+            labelValor.Size = new Size(56, 25);
+            labelValor.TabIndex = 31;
+            labelValor.Text = "Valor:";
             // 
             // CadBebidas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(631, 475);
-            this.Controls.Add(this.labelbebidas);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnExcluir);
-            this.Controls.Add(this.btnCadastrar);
-            this.Controls.Add(this.bebidasListBox);
-            this.Controls.Add(this.valorTB);
-            this.Controls.Add(this.tamanhoTB);
-            this.Controls.Add(this.nomeTB);
-            this.Controls.Add(this.tipoTB);
-            this.Controls.Add(this.LabelValor);
-            this.Controls.Add(this.LabelTamanho);
-            this.Controls.Add(this.labelNome);
-            this.Controls.Add(this.LabelTipo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "CadBebidas";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cadastrar Bebidas";
-            this.Load += new System.EventHandler(this.TelaCadastrarBebidas_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 192, 192);
+            ClientSize = new Size(577, 561);
+            Controls.Add(labelValor);
+            Controls.Add(textBoxValor);
+            Controls.Add(buttonVisualizarCadastro);
+            Controls.Add(buttonVoltar);
+            Controls.Add(buttonSalvar);
+            Controls.Add(label1);
+            Controls.Add(labelML);
+            Controls.Add(listBoxTipo);
+            Controls.Add(listBoxML);
+            Controls.Add(textBoxNome);
+            Controls.Add(labelNome);
+            Controls.Add(textBoxSabor);
+            Controls.Add(id_sabor);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(4, 6, 4, 6);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "CadBebidas";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Cadastrar Bebidas";
+            Load += TelaCadastrarBebidas_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.Label LabelTipo;
-        private System.Windows.Forms.Label labelNome;
-        private System.Windows.Forms.Label LabelTamanho;
-        private System.Windows.Forms.Label LabelValor;
-        private System.Windows.Forms.TextBox tipoTB;
-        private System.Windows.Forms.TextBox nomeTB;
-        private System.Windows.Forms.TextBox tamanhoTB;
-        private System.Windows.Forms.TextBox valorTB;
-        private System.Windows.Forms.ListBox bebidasListBox;
-        private System.Windows.Forms.Button btnCadastrar;
-        private System.Windows.Forms.Button btnExcluir;
-        private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Label labelbebidas;
+        private Button buttonVisualizarCadastro;
+        private Button buttonVoltar;
+        private Button buttonSalvar;
+        private Label label1;
+        private Label labelML;
+        private ListBox listBoxTipo;
+        private ListBox listBoxML;
+        private TextBox textBoxNome;
+        private Label labelNome;
+        private TextBox textBoxSabor;
+        private Label id_sabor;
+        private TextBox textBoxValor;
+        private Label labelValor;
     }
 }

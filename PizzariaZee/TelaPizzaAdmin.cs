@@ -16,10 +16,11 @@ namespace PizzariaZee
     /// </summary>
     public partial class TelaPizzaAdmin : Form
     {
-        TelaSabores sabores = new TelaSabores();
+        CadastrarSabor sabores = new CadastrarSabor();
         TelaEditarPrecos precos = new TelaEditarPrecos();
         CadBordas borda = new CadBordas();
         CadastrarIngrediente ingrediente = new CadastrarIngrediente();
+
         
         public TelaPizzaAdmin()
         {
