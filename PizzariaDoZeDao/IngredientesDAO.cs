@@ -19,7 +19,7 @@ namespace PizzariaDoZe.Dao
         {
             return Nome;
         }
-    }
+        }
 
         public class IngredientesDAO
         {

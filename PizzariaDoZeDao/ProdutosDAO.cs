@@ -97,5 +97,9 @@ auxSqlFiltro +
             Tipo = tipo;
             ML = ml;
         }
+        public override string ToString()
+        {
+            return Descricao;
+        }
     }
 }

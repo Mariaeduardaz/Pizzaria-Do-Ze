@@ -28,261 +28,406 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.retiradaRadioBtn = new System.Windows.Forms.RadioButton();
-            this.entregaRadiobtn = new System.Windows.Forms.RadioButton();
-            this.labelEntrega = new System.Windows.Forms.Label();
-            this.labelTotalPedidoFinal = new System.Windows.Forms.Label();
-            this.totalPedidoFinalLabel = new System.Windows.Forms.Label();
-            this.labelFormaPagamento = new System.Windows.Forms.Label();
-            this.cartaoRadioBtn = new System.Windows.Forms.RadioButton();
-            this.pixRadioBtn = new System.Windows.Forms.RadioButton();
-            this.dinheiroRadioBtn = new System.Windows.Forms.RadioButton();
-            this.trocoTextBox = new System.Windows.Forms.TextBox();
-            this.labelTroco = new System.Windows.Forms.Label();
-            this.finalizarBtn = new System.Windows.Forms.Button();
-            this.cancelBtn = new System.Windows.Forms.Button();
-            this.checkBoxCartaoCredito = new System.Windows.Forms.CheckBox();
-            this.checkBoxCartaoDebito = new System.Windows.Forms.CheckBox();
-            this.groupBoxEntrega = new System.Windows.Forms.GroupBox();
-            this.groupBoxPagamento = new System.Windows.Forms.GroupBox();
-            this.SuspendLayout();
+            retiradaRadioBtn = new RadioButton();
+            entregaRadiobtn = new RadioButton();
+            labelEntrega = new Label();
+            labelTotalPedidoFinal = new Label();
+            totalPedidoFinalLabel = new Label();
+            labelFormaPagamento = new Label();
+            cartaoRadioBtn = new RadioButton();
+            pixRadioBtn = new RadioButton();
+            dinheiroRadioBtn = new RadioButton();
+            trocoTextBox = new TextBox();
+            labelTroco = new Label();
+            finalizarBtn = new Button();
+            cancelBtn = new Button();
+            checkBoxCartaoCredito = new CheckBox();
+            checkBoxCartaoDebito = new CheckBox();
+            groupBoxEntrega = new GroupBox();
+            groupBoxPagamento = new GroupBox();
+            label2 = new Label();
+            label3 = new Label();
+            checkedListBoxSabores = new CheckedListBox();
+            checkedListBoxBebida = new CheckedListBox();
+            groupBoxTamanhoPizza = new GroupBox();
+            radioButtonPequena = new RadioButton();
+            radioButtonMedia = new RadioButton();
+            radioButtonGrande = new RadioButton();
+            radioButtonGigante = new RadioButton();
+            comboBoxCliente = new ComboBox();
+            label1 = new Label();
+            groupBoxTamanhoPizza.SuspendLayout();
+            SuspendLayout();
             // 
             // retiradaRadioBtn
             // 
-            this.retiradaRadioBtn.AutoSize = true;
-            this.retiradaRadioBtn.Location = new System.Drawing.Point(116, 29);
-            this.retiradaRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.retiradaRadioBtn.Name = "retiradaRadioBtn";
-            this.retiradaRadioBtn.Size = new System.Drawing.Size(95, 24);
-            this.retiradaRadioBtn.TabIndex = 0;
-            this.retiradaRadioBtn.TabStop = true;
-            this.retiradaRadioBtn.Text = "Retirada";
-            this.retiradaRadioBtn.UseVisualStyleBackColor = true;
+            retiradaRadioBtn.AutoSize = true;
+            retiradaRadioBtn.Location = new Point(105, 298);
+            retiradaRadioBtn.Margin = new Padding(4, 5, 4, 5);
+            retiradaRadioBtn.Name = "retiradaRadioBtn";
+            retiradaRadioBtn.Size = new Size(86, 24);
+            retiradaRadioBtn.TabIndex = 0;
+            retiradaRadioBtn.TabStop = true;
+            retiradaRadioBtn.Text = "Retirada";
+            retiradaRadioBtn.UseVisualStyleBackColor = true;
             // 
             // entregaRadiobtn
             // 
-            this.entregaRadiobtn.AutoSize = true;
-            this.entregaRadiobtn.Location = new System.Drawing.Point(116, 57);
-            this.entregaRadiobtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.entregaRadiobtn.Name = "entregaRadiobtn";
-            this.entregaRadiobtn.Size = new System.Drawing.Size(91, 24);
-            this.entregaRadiobtn.TabIndex = 1;
-            this.entregaRadiobtn.TabStop = true;
-            this.entregaRadiobtn.Text = "Entrega";
-            this.entregaRadiobtn.UseVisualStyleBackColor = true;
+            entregaRadiobtn.AutoSize = true;
+            entregaRadiobtn.Location = new Point(105, 326);
+            entregaRadiobtn.Margin = new Padding(4, 5, 4, 5);
+            entregaRadiobtn.Name = "entregaRadiobtn";
+            entregaRadiobtn.Size = new Size(81, 24);
+            entregaRadiobtn.TabIndex = 1;
+            entregaRadiobtn.TabStop = true;
+            entregaRadiobtn.Text = "Entrega";
+            entregaRadiobtn.UseVisualStyleBackColor = true;
             // 
             // labelEntrega
             // 
-            this.labelEntrega.AutoSize = true;
-            this.labelEntrega.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelEntrega.Location = new System.Drawing.Point(13, 42);
-            this.labelEntrega.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelEntrega.Name = "labelEntrega";
-            this.labelEntrega.Size = new System.Drawing.Size(95, 25);
-            this.labelEntrega.TabIndex = 2;
-            this.labelEntrega.Text = "Entrega:";
+            labelEntrega.AutoSize = true;
+            labelEntrega.Font = new Font("Mongolian Baiti", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            labelEntrega.Location = new Point(14, 311);
+            labelEntrega.Margin = new Padding(4, 0, 4, 0);
+            labelEntrega.Name = "labelEntrega";
+            labelEntrega.Size = new Size(79, 21);
+            labelEntrega.TabIndex = 2;
+            labelEntrega.Text = "Entrega:";
             // 
             // labelTotalPedidoFinal
             // 
-            this.labelTotalPedidoFinal.AutoSize = true;
-            this.labelTotalPedidoFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTotalPedidoFinal.Location = new System.Drawing.Point(12, 247);
-            this.labelTotalPedidoFinal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelTotalPedidoFinal.Name = "labelTotalPedidoFinal";
-            this.labelTotalPedidoFinal.Size = new System.Drawing.Size(190, 29);
-            this.labelTotalPedidoFinal.TabIndex = 3;
-            this.labelTotalPedidoFinal.Text = "Total do pedido:";
+            labelTotalPedidoFinal.AutoSize = true;
+            labelTotalPedidoFinal.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            labelTotalPedidoFinal.Location = new Point(10, 501);
+            labelTotalPedidoFinal.Margin = new Padding(4, 0, 4, 0);
+            labelTotalPedidoFinal.Name = "labelTotalPedidoFinal";
+            labelTotalPedidoFinal.Size = new Size(147, 24);
+            labelTotalPedidoFinal.TabIndex = 3;
+            labelTotalPedidoFinal.Text = "Total do pedido:";
             // 
             // totalPedidoFinalLabel
             // 
-            this.totalPedidoFinalLabel.AutoSize = true;
-            this.totalPedidoFinalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalPedidoFinalLabel.Location = new System.Drawing.Point(210, 247);
-            this.totalPedidoFinalLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.totalPedidoFinalLabel.Name = "totalPedidoFinalLabel";
-            this.totalPedidoFinalLabel.Size = new System.Drawing.Size(101, 29);
-            this.totalPedidoFinalLabel.TabIndex = 7;
-            this.totalPedidoFinalLabel.Text = "R$45,00";
+            totalPedidoFinalLabel.AutoSize = true;
+            totalPedidoFinalLabel.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            totalPedidoFinalLabel.Location = new Point(186, 501);
+            totalPedidoFinalLabel.Margin = new Padding(4, 0, 4, 0);
+            totalPedidoFinalLabel.Name = "totalPedidoFinalLabel";
+            totalPedidoFinalLabel.Size = new Size(78, 24);
+            totalPedidoFinalLabel.TabIndex = 7;
+            totalPedidoFinalLabel.Text = "R$45,00";
             // 
             // labelFormaPagamento
             // 
-            this.labelFormaPagamento.AutoSize = true;
-            this.labelFormaPagamento.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFormaPagamento.Location = new System.Drawing.Point(28, 137);
-            this.labelFormaPagamento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelFormaPagamento.Name = "labelFormaPagamento";
-            this.labelFormaPagamento.Size = new System.Drawing.Size(222, 25);
-            this.labelFormaPagamento.TabIndex = 6;
-            this.labelFormaPagamento.Text = "Forma de pagamento:";
+            labelFormaPagamento.AutoSize = true;
+            labelFormaPagamento.Font = new Font("Mongolian Baiti", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            labelFormaPagamento.Location = new Point(27, 406);
+            labelFormaPagamento.Margin = new Padding(4, 0, 4, 0);
+            labelFormaPagamento.Name = "labelFormaPagamento";
+            labelFormaPagamento.Size = new Size(187, 21);
+            labelFormaPagamento.TabIndex = 6;
+            labelFormaPagamento.Text = "Forma de pagamento:";
             // 
             // cartaoRadioBtn
             // 
-            this.cartaoRadioBtn.AutoSize = true;
-            this.cartaoRadioBtn.Location = new System.Drawing.Point(438, 140);
-            this.cartaoRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cartaoRadioBtn.Name = "cartaoRadioBtn";
-            this.cartaoRadioBtn.Size = new System.Drawing.Size(82, 24);
-            this.cartaoRadioBtn.TabIndex = 4;
-            this.cartaoRadioBtn.TabStop = true;
-            this.cartaoRadioBtn.Text = "Cartão";
-            this.cartaoRadioBtn.UseVisualStyleBackColor = true;
+            cartaoRadioBtn.AutoSize = true;
+            cartaoRadioBtn.Location = new Point(391, 409);
+            cartaoRadioBtn.Margin = new Padding(4, 5, 4, 5);
+            cartaoRadioBtn.Name = "cartaoRadioBtn";
+            cartaoRadioBtn.Size = new Size(74, 24);
+            cartaoRadioBtn.TabIndex = 4;
+            cartaoRadioBtn.TabStop = true;
+            cartaoRadioBtn.Text = "Cartão";
+            cartaoRadioBtn.UseVisualStyleBackColor = true;
             // 
             // pixRadioBtn
             // 
-            this.pixRadioBtn.AutoSize = true;
-            this.pixRadioBtn.Location = new System.Drawing.Point(269, 138);
-            this.pixRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pixRadioBtn.Name = "pixRadioBtn";
-            this.pixRadioBtn.Size = new System.Drawing.Size(60, 24);
-            this.pixRadioBtn.TabIndex = 2;
-            this.pixRadioBtn.TabStop = true;
-            this.pixRadioBtn.Text = "PIX";
-            this.pixRadioBtn.UseVisualStyleBackColor = true;
+            pixRadioBtn.AutoSize = true;
+            pixRadioBtn.Location = new Point(241, 407);
+            pixRadioBtn.Margin = new Padding(4, 5, 4, 5);
+            pixRadioBtn.Name = "pixRadioBtn";
+            pixRadioBtn.Size = new Size(51, 24);
+            pixRadioBtn.TabIndex = 2;
+            pixRadioBtn.TabStop = true;
+            pixRadioBtn.Text = "PIX";
+            pixRadioBtn.UseVisualStyleBackColor = true;
             // 
             // dinheiroRadioBtn
             // 
-            this.dinheiroRadioBtn.AutoSize = true;
-            this.dinheiroRadioBtn.Location = new System.Drawing.Point(337, 138);
-            this.dinheiroRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.dinheiroRadioBtn.Name = "dinheiroRadioBtn";
-            this.dinheiroRadioBtn.Size = new System.Drawing.Size(93, 24);
-            this.dinheiroRadioBtn.TabIndex = 3;
-            this.dinheiroRadioBtn.TabStop = true;
-            this.dinheiroRadioBtn.Text = "Dinheiro";
-            this.dinheiroRadioBtn.UseVisualStyleBackColor = true;
+            dinheiroRadioBtn.AutoSize = true;
+            dinheiroRadioBtn.Location = new Point(302, 407);
+            dinheiroRadioBtn.Margin = new Padding(4, 5, 4, 5);
+            dinheiroRadioBtn.Name = "dinheiroRadioBtn";
+            dinheiroRadioBtn.Size = new Size(87, 24);
+            dinheiroRadioBtn.TabIndex = 3;
+            dinheiroRadioBtn.TabStop = true;
+            dinheiroRadioBtn.Text = "Dinheiro";
+            dinheiroRadioBtn.UseVisualStyleBackColor = true;
             // 
             // trocoTextBox
             // 
-            this.trocoTextBox.Location = new System.Drawing.Point(116, 199);
-            this.trocoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.trocoTextBox.Name = "trocoTextBox";
-            this.trocoTextBox.Size = new System.Drawing.Size(210, 26);
-            this.trocoTextBox.TabIndex = 10;
+            trocoTextBox.Location = new Point(108, 467);
+            trocoTextBox.Margin = new Padding(4, 5, 4, 5);
+            trocoTextBox.Name = "trocoTextBox";
+            trocoTextBox.Size = new Size(187, 27);
+            trocoTextBox.TabIndex = 10;
             // 
             // labelTroco
             // 
-            this.labelTroco.AutoSize = true;
-            this.labelTroco.Location = new System.Drawing.Point(13, 202);
-            this.labelTroco.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelTroco.Name = "labelTroco";
-            this.labelTroco.Size = new System.Drawing.Size(93, 20);
-            this.labelTroco.TabIndex = 11;
-            this.labelTroco.Text = "Troco para: ";
+            labelTroco.AutoSize = true;
+            labelTroco.Location = new Point(13, 467);
+            labelTroco.Margin = new Padding(4, 0, 4, 0);
+            labelTroco.Name = "labelTroco";
+            labelTroco.Size = new Size(87, 20);
+            labelTroco.TabIndex = 11;
+            labelTroco.Text = "Troco para: ";
             // 
             // finalizarBtn
             // 
-            this.finalizarBtn.Location = new System.Drawing.Point(496, 294);
-            this.finalizarBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.finalizarBtn.Name = "finalizarBtn";
-            this.finalizarBtn.Size = new System.Drawing.Size(123, 35);
-            this.finalizarBtn.TabIndex = 9;
-            this.finalizarBtn.Text = "Finalizar";
-            this.finalizarBtn.UseVisualStyleBackColor = true;
-            this.finalizarBtn.Click += new System.EventHandler(this.finalizarBtn_Click);
+            finalizarBtn.Location = new Point(789, 501);
+            finalizarBtn.Margin = new Padding(4, 5, 4, 5);
+            finalizarBtn.Name = "finalizarBtn";
+            finalizarBtn.Size = new Size(109, 35);
+            finalizarBtn.TabIndex = 9;
+            finalizarBtn.Text = "Finalizar";
+            finalizarBtn.UseVisualStyleBackColor = true;
+            finalizarBtn.Click += finalizarBtn_Click;
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(361, 294);
-            this.cancelBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(122, 35);
-            this.cancelBtn.TabIndex = 8;
-            this.cancelBtn.Text = "Cancelar";
-            this.cancelBtn.UseVisualStyleBackColor = true;
+            cancelBtn.Location = new Point(669, 501);
+            cancelBtn.Margin = new Padding(4, 5, 4, 5);
+            cancelBtn.Name = "cancelBtn";
+            cancelBtn.Size = new Size(108, 35);
+            cancelBtn.TabIndex = 8;
+            cancelBtn.Text = "Cancelar";
+            cancelBtn.UseVisualStyleBackColor = true;
             // 
             // checkBoxCartaoCredito
             // 
-            this.checkBoxCartaoCredito.AutoSize = true;
-            this.checkBoxCartaoCredito.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.checkBoxCartaoCredito.Location = new System.Drawing.Point(523, 127);
-            this.checkBoxCartaoCredito.Name = "checkBoxCartaoCredito";
-            this.checkBoxCartaoCredito.Size = new System.Drawing.Size(86, 24);
-            this.checkBoxCartaoCredito.TabIndex = 5;
-            this.checkBoxCartaoCredito.Text = "Credito";
-            this.checkBoxCartaoCredito.UseVisualStyleBackColor = true;
+            checkBoxCartaoCredito.AutoSize = true;
+            checkBoxCartaoCredito.ForeColor = SystemColors.ControlDarkDark;
+            checkBoxCartaoCredito.Location = new Point(467, 396);
+            checkBoxCartaoCredito.Name = "checkBoxCartaoCredito";
+            checkBoxCartaoCredito.Size = new Size(80, 24);
+            checkBoxCartaoCredito.TabIndex = 5;
+            checkBoxCartaoCredito.Text = "Credito";
+            checkBoxCartaoCredito.UseVisualStyleBackColor = true;
             // 
             // checkBoxCartaoDebito
             // 
-            this.checkBoxCartaoDebito.AutoSize = true;
-            this.checkBoxCartaoDebito.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.checkBoxCartaoDebito.Location = new System.Drawing.Point(523, 157);
-            this.checkBoxCartaoDebito.Name = "checkBoxCartaoDebito";
-            this.checkBoxCartaoDebito.Size = new System.Drawing.Size(82, 24);
-            this.checkBoxCartaoDebito.TabIndex = 6;
-            this.checkBoxCartaoDebito.Text = "Debito";
-            this.checkBoxCartaoDebito.UseVisualStyleBackColor = true;
+            checkBoxCartaoDebito.AutoSize = true;
+            checkBoxCartaoDebito.ForeColor = SystemColors.ControlDarkDark;
+            checkBoxCartaoDebito.Location = new Point(467, 426);
+            checkBoxCartaoDebito.Name = "checkBoxCartaoDebito";
+            checkBoxCartaoDebito.Size = new Size(77, 24);
+            checkBoxCartaoDebito.TabIndex = 6;
+            checkBoxCartaoDebito.Text = "Debito";
+            checkBoxCartaoDebito.UseVisualStyleBackColor = true;
             // 
             // groupBoxEntrega
             // 
-            this.groupBoxEntrega.Location = new System.Drawing.Point(12, 3);
-            this.groupBoxEntrega.Name = "groupBoxEntrega";
-            this.groupBoxEntrega.Size = new System.Drawing.Size(238, 107);
-            this.groupBoxEntrega.TabIndex = 12;
-            this.groupBoxEntrega.TabStop = false;
-            this.groupBoxEntrega.Text = "entrega ";
+            groupBoxEntrega.Location = new Point(13, 272);
+            groupBoxEntrega.Name = "groupBoxEntrega";
+            groupBoxEntrega.Size = new Size(212, 107);
+            groupBoxEntrega.TabIndex = 12;
+            groupBoxEntrega.TabStop = false;
+            groupBoxEntrega.Text = "entrega ";
             // 
             // groupBoxPagamento
             // 
-            this.groupBoxPagamento.Location = new System.Drawing.Point(12, 116);
-            this.groupBoxPagamento.Name = "groupBoxPagamento";
-            this.groupBoxPagamento.Size = new System.Drawing.Size(608, 75);
-            this.groupBoxPagamento.TabIndex = 13;
-            this.groupBoxPagamento.TabStop = false;
-            this.groupBoxPagamento.Text = "Pagamento";
+            groupBoxPagamento.Location = new Point(13, 385);
+            groupBoxPagamento.Name = "groupBoxPagamento";
+            groupBoxPagamento.Size = new Size(540, 75);
+            groupBoxPagamento.TabIndex = 13;
+            groupBoxPagamento.TabStop = false;
+            groupBoxPagamento.Text = "Pagamento";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Mongolian Baiti", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(582, 20);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(80, 21);
+            label2.TabIndex = 16;
+            label2.Text = "Sabores:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Mongolian Baiti", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(283, 20);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(81, 21);
+            label3.TabIndex = 17;
+            label3.Text = "Bebidas:";
+            // 
+            // checkedListBoxSabores
+            // 
+            checkedListBoxSabores.FormattingEnabled = true;
+            checkedListBoxSabores.Location = new Point(669, 20);
+            checkedListBoxSabores.Name = "checkedListBoxSabores";
+            checkedListBoxSabores.Size = new Size(204, 312);
+            checkedListBoxSabores.TabIndex = 19;
+            // 
+            // checkedListBoxBebida
+            // 
+            checkedListBoxBebida.FormattingEnabled = true;
+            checkedListBoxBebida.Location = new Point(371, 20);
+            checkedListBoxBebida.Name = "checkedListBoxBebida";
+            checkedListBoxBebida.Size = new Size(204, 312);
+            checkedListBoxBebida.TabIndex = 20;
+            // 
+            // groupBoxTamanhoPizza
+            // 
+            groupBoxTamanhoPizza.Controls.Add(radioButtonPequena);
+            groupBoxTamanhoPizza.Controls.Add(radioButtonMedia);
+            groupBoxTamanhoPizza.Controls.Add(radioButtonGrande);
+            groupBoxTamanhoPizza.Controls.Add(radioButtonGigante);
+            groupBoxTamanhoPizza.Location = new Point(14, 101);
+            groupBoxTamanhoPizza.Name = "groupBoxTamanhoPizza";
+            groupBoxTamanhoPizza.Size = new Size(237, 165);
+            groupBoxTamanhoPizza.TabIndex = 13;
+            groupBoxTamanhoPizza.TabStop = false;
+            groupBoxTamanhoPizza.Text = "Tamanho Pizza";
+            // 
+            // radioButtonPequena
+            // 
+            radioButtonPequena.AutoSize = true;
+            radioButtonPequena.Location = new Point(19, 128);
+            radioButtonPequena.Name = "radioButtonPequena";
+            radioButtonPequena.Size = new Size(86, 24);
+            radioButtonPequena.TabIndex = 3;
+            radioButtonPequena.TabStop = true;
+            radioButtonPequena.Text = "Pequena";
+            radioButtonPequena.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonMedia
+            // 
+            radioButtonMedia.AutoSize = true;
+            radioButtonMedia.Location = new Point(19, 97);
+            radioButtonMedia.Name = "radioButtonMedia";
+            radioButtonMedia.Size = new Size(72, 24);
+            radioButtonMedia.TabIndex = 2;
+            radioButtonMedia.TabStop = true;
+            radioButtonMedia.Text = "Media";
+            radioButtonMedia.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonGrande
+            // 
+            radioButtonGrande.AutoSize = true;
+            radioButtonGrande.Location = new Point(19, 67);
+            radioButtonGrande.Name = "radioButtonGrande";
+            radioButtonGrande.Size = new Size(78, 24);
+            radioButtonGrande.TabIndex = 1;
+            radioButtonGrande.TabStop = true;
+            radioButtonGrande.Text = "Grande";
+            radioButtonGrande.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonGigante
+            // 
+            radioButtonGigante.AutoSize = true;
+            radioButtonGigante.Location = new Point(19, 37);
+            radioButtonGigante.Name = "radioButtonGigante";
+            radioButtonGigante.Size = new Size(82, 24);
+            radioButtonGigante.TabIndex = 0;
+            radioButtonGigante.TabStop = true;
+            radioButtonGigante.Text = "Gigante";
+            radioButtonGigante.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxCliente
+            // 
+            comboBoxCliente.FormattingEnabled = true;
+            comboBoxCliente.Location = new Point(113, 20);
+            comboBoxCliente.Name = "comboBoxCliente";
+            comboBoxCliente.Size = new Size(151, 28);
+            comboBoxCliente.TabIndex = 21;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Mongolian Baiti", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(19, 22);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(75, 21);
+            label1.TabIndex = 22;
+            label1.Text = "Cliente:";
             // 
             // TelaPedidoFinal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(632, 343);
-            this.Controls.Add(this.checkBoxCartaoDebito);
-            this.Controls.Add(this.checkBoxCartaoCredito);
-            this.Controls.Add(this.cancelBtn);
-            this.Controls.Add(this.finalizarBtn);
-            this.Controls.Add(this.labelTroco);
-            this.Controls.Add(this.trocoTextBox);
-            this.Controls.Add(this.dinheiroRadioBtn);
-            this.Controls.Add(this.pixRadioBtn);
-            this.Controls.Add(this.cartaoRadioBtn);
-            this.Controls.Add(this.labelFormaPagamento);
-            this.Controls.Add(this.totalPedidoFinalLabel);
-            this.Controls.Add(this.labelTotalPedidoFinal);
-            this.Controls.Add(this.labelEntrega);
-            this.Controls.Add(this.entregaRadiobtn);
-            this.Controls.Add(this.retiradaRadioBtn);
-            this.Controls.Add(this.groupBoxEntrega);
-            this.Controls.Add(this.groupBoxPagamento);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "TelaPedidoFinal";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Pedido Final";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 192, 192);
+            ClientSize = new Size(910, 543);
+            Controls.Add(label1);
+            Controls.Add(comboBoxCliente);
+            Controls.Add(groupBoxTamanhoPizza);
+            Controls.Add(checkedListBoxBebida);
+            Controls.Add(checkedListBoxSabores);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(checkBoxCartaoDebito);
+            Controls.Add(checkBoxCartaoCredito);
+            Controls.Add(cancelBtn);
+            Controls.Add(finalizarBtn);
+            Controls.Add(labelTroco);
+            Controls.Add(trocoTextBox);
+            Controls.Add(dinheiroRadioBtn);
+            Controls.Add(pixRadioBtn);
+            Controls.Add(cartaoRadioBtn);
+            Controls.Add(labelFormaPagamento);
+            Controls.Add(totalPedidoFinalLabel);
+            Controls.Add(labelTotalPedidoFinal);
+            Controls.Add(labelEntrega);
+            Controls.Add(entregaRadiobtn);
+            Controls.Add(retiradaRadioBtn);
+            Controls.Add(groupBoxEntrega);
+            Controls.Add(groupBoxPagamento);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(4, 5, 4, 5);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "TelaPedidoFinal";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Pedido Final";
+            groupBoxTamanhoPizza.ResumeLayout(false);
+            groupBoxTamanhoPizza.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.RadioButton retiradaRadioBtn;
-        private System.Windows.Forms.RadioButton entregaRadiobtn;
-        private System.Windows.Forms.Label labelEntrega;
-        private System.Windows.Forms.Label labelTotalPedidoFinal;
-        private System.Windows.Forms.Label totalPedidoFinalLabel;
-        private System.Windows.Forms.Label labelFormaPagamento;
-        private System.Windows.Forms.RadioButton cartaoRadioBtn;
-        private System.Windows.Forms.RadioButton pixRadioBtn;
-        private System.Windows.Forms.RadioButton dinheiroRadioBtn;
-        private System.Windows.Forms.TextBox trocoTextBox;
-        private System.Windows.Forms.Label labelTroco;
-        private System.Windows.Forms.Button finalizarBtn;
-        private System.Windows.Forms.Button cancelBtn;
-        private System.Windows.Forms.CheckBox checkBoxCartaoCredito;
-        private System.Windows.Forms.CheckBox checkBoxCartaoDebito;
-        private System.Windows.Forms.GroupBox groupBoxEntrega;
-        private System.Windows.Forms.GroupBox groupBoxPagamento;
+        private RadioButton retiradaRadioBtn;
+        private RadioButton entregaRadiobtn;
+        private Label labelEntrega;
+        private Label labelTotalPedidoFinal;
+        private Label totalPedidoFinalLabel;
+        private Label labelFormaPagamento;
+        private RadioButton cartaoRadioBtn;
+        private RadioButton pixRadioBtn;
+        private RadioButton dinheiroRadioBtn;
+        private TextBox trocoTextBox;
+        private Label labelTroco;
+        private Button finalizarBtn;
+        private Button cancelBtn;
+        private CheckBox checkBoxCartaoCredito;
+        private CheckBox checkBoxCartaoDebito;
+        private GroupBox groupBoxEntrega;
+        private GroupBox groupBoxPagamento;
+        private Label label2;
+        private Label label3;
+        private CheckedListBox checkedListBoxSabores;
+        private CheckedListBox checkedListBoxBebida;
+        private GroupBox groupBoxTamanhoPizza;
+        private RadioButton radioButtonPequena;
+        private RadioButton radioButtonMedia;
+        private RadioButton radioButtonGrande;
+        private RadioButton radioButtonGigante;
+        private ComboBox comboBoxCliente;
+        private Label label1;
     }
 }

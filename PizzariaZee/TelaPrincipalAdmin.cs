@@ -19,7 +19,7 @@ namespace PizzariaZee
     {
         TelaPrincipalEntregador entregas = new TelaPrincipalEntregador();
         telaOpcaoFuncionario funcionarios = new telaOpcaoFuncionario();
-        TelaCadastroCliente pedido = new TelaCadastroCliente();
+        TelaPedidoFinal pedido = new TelaPedidoFinal();
         TelaPizzaAdmin pizza = new TelaPizzaAdmin();
         TelaAcessarStatusPedidoAtendente editStatus = new TelaAcessarStatusPedidoAtendente();
         CadFornecedor fornecedor = new CadFornecedor();
@@ -98,6 +98,11 @@ namespace PizzariaZee
         private void buttonEndereco_Click(object sender, EventArgs e)
         {
             endereco.ShowDialog();
+        }
+
+        private void buttonPedido_Click(object sender, EventArgs e)
+        {
+            pedido.ShowDialog();
         }
     }
 }
